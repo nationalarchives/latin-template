@@ -3,7 +3,7 @@
     <title>Beginners' Latin</title>
         <?php
             include "DocumentHead.php";
-            include "header.php";
+            include "./constants/header.php";
         ?>
     </head>
     <body>
@@ -125,13 +125,13 @@
 
     <?php
 
-            include "NewsletterSignup.php";
+            include "./constants/NewsletterSignup.php";
 
     ?>
     </body>
     <footer id="footer" class="breather-top-bottom" role="contentinfo">
         <?php
-        include "footer.php";
+        include "./constants/footer.php";
         ?>
 
     </footer>

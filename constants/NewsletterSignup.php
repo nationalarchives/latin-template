@@ -1,7 +1,7 @@
 <div class="container">
     <div class="newsletter-template">
         <div class="news-icon">
-            <img src="./images/tna-newsletter-icon.png" alt="The National Archives Newsletter Icon">
+            <img src="../images/tna-newsletter-icon.png" alt="The National Archives Newsletter Icon">
         </div>
 
         <div class="news-content" id="newsletterAccessibility">
