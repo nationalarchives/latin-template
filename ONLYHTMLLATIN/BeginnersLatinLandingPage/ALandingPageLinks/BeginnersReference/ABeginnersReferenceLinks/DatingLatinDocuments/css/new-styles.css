@@ -1,0 +1,26 @@
+/*!
+ * New styles go here
+ */
+
+body {
+	width: 100%;
+
+}
+
+.helpbox {
+	border: solid;
+	padding:10px;
+}
+
+
+th {   
+	text-align: center;
+}
+	
+.container2 {
+
+}
+
+.row {
+	
+}
