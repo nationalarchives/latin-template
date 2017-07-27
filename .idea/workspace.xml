@@ -25,12 +25,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="latinTemplate.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="latinTemplate.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/latinTemplate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.3029802" vertical-offset="0" max-vertical-offset="2265">
-              <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.0408163" vertical-offset="0" max-vertical-offset="2265">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LandingPage.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LandingPage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27317882" vertical-offset="975" max-vertical-offset="2760">
+              <caret line="141" column="36" selection-start-line="141" selection-start-column="36" selection-end-line="141" selection-end-column="36" />
+              <folding>
+                <element signature="n#style#0;n#article#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#main#0;n#body#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,7 +51,7 @@
       <file leaf-file-name="DocumentHead.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DocumentHead.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="165">
+            <state vertical-scroll-proportion="-0.6122449" vertical-offset="0" max-vertical-offset="180">
               <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
               <folding />
             </state>
@@ -91,6 +104,9 @@
         <option value="$PROJECT_DIR$/breadcrumbs.php" />
         <option value="$PROJECT_DIR$/content.php" />
         <option value="$PROJECT_DIR$/beginners_latin.php" />
+        <option value="$PROJECT_DIR$/latinTemplate.php" />
+        <option value="$PROJECT_DIR$/BeginnersLandingPage.php" />
+        <option value="$PROJECT_DIR$/LandingPage.php" />
       </list>
     </option>
   </component>
@@ -145,6 +161,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Latin Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Latin Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ONLYHTMLLATIN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Latin Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Latin Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ONLYHTMLLATIN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BeginnersLatinLandingPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -159,6 +207,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -311,6 +360,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2400" max-vertical-offset="3855">
           <caret line="166" column="10" selection-start-line="166" selection-start-column="10" selection-end-line="166" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -326,21 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="653">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ONLYHTMLLATIN/BeginnersLatinLandingPage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6915739" vertical-offset="2400" max-vertical-offset="3855">
-          <caret line="189" column="28" selection-start-line="189" selection-start-column="28" selection-end-line="189" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentHead.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="165">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -370,9 +405,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/latinTemplate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.3029802" vertical-offset="0" max-vertical-offset="2265">
-          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.0408163" vertical-offset="0" max-vertical-offset="2265">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ONLYHTMLLATIN/BeginnersLatinLandingPage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27649006" vertical-offset="2248" max-vertical-offset="4050">
+          <caret line="154" column="25" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentHead.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6122449" vertical-offset="0" max-vertical-offset="180">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LandingPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27317882" vertical-offset="975" max-vertical-offset="2760">
+          <caret line="141" column="36" selection-start-line="141" selection-start-column="36" selection-end-line="141" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#article#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#main#0;n#body#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
