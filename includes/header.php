@@ -7,13 +7,13 @@
                 <button aria-label="Toggle menu" id="mega-menu-mobile"></button>
                 <a href="#" title="Go to The National Archives homepage"
                    class="visible-lg visible-md visible-sm">
-                    <img src="../images/logo-white.png" alt="The National Archives"  class="img-responsive">
+                    <img src="./img/logo-white.png" alt="The National Archives"  class="img-responsive">
                 </a>
             </div>
             <div class="col-xs-8 col-sm-2" id="mobile-logo-holder">
                 <button title="Main menu" aria-label="Toggle menu" id="mega-menu-pull-down" class="hidden-xs"><span>Menu</span></button>
                 <a href="#" title="Go to The National Archives homepage" class="hidden-lg hidden-md hidden-sm">
-                    <img src="../images/logo-white.png" alt="The National Archives"  class="img-responsive">
+                    <img src="./img/logo-white.png" alt="The National Archives"  class="img-responsive">
                 </a>
             </div>
             <div class="col-xs-2 col-sm-5" id="search-field-wrapper">
