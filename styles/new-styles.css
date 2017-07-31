@@ -13,9 +13,9 @@ th {
     background: url(../img/dot-grey.png);
 }
 
-.hide {
+.notshow {
 	display: none
 }
-.show{
+.definitelyshow{
 	display: block
 }

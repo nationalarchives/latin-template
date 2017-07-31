@@ -35,22 +35,24 @@
 var lessonNumber;
 var lessonNumberOfSections = 5;
 
+function HideAll() {
+    for (var i = 0; i <= lessonNumberOfSections; i++) {
+        $('#content-'+i).toggleClass("notshow");
+    };
+}
 
-for (var i = 0; i <= lessonNumberOfSections; i++) {
-	$('#content-'+i).toggleClass("hide");
-};
+
+$(HideAll());
+$('#content-1').toggleClass("show")
 
 $('#lesson-content-buttons button').on('click', function() {
 
-	
+    $(HideAll());
+    $('#content-1').toggleClass("show")
 
 	var $this = $(this),
 		target_id = $this.data('target');
 
 	$('#' + target_id).toggleClass("hide");
-	
-	for (var i = 0; i <= lessonNumberOfSections; i++) {
-		$('#content-'+i).toggleClass("hide");
-	};
-	
+
 })
