@@ -32,8 +32,7 @@
                         <p>BLURB LESSON 12</p>
                     <?php break; default : ?>
                         <p>Sorry Dave, Im afraid I can't let you do that</p>
-                <?php } ?>
-                <?php
+                <?php }
                     $PrevLesson = $LessonNo-1;
                     $NextLesson = $LessonNo+1;
                 ?>
