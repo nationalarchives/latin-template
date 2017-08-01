@@ -19,7 +19,7 @@ $('#lesson-content-buttons button').on('click', function() {
 	var $this = $(this),
 		target_id = ('#' + $this.data('target'));
 
-    $(target_id).removeClass("show");
+    $(target_id).removeClass("hide");
 	$(target_id).addClass("show");
 
 })
