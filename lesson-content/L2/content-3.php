@@ -2,7 +2,7 @@
 						<div class="entry-content clearfix">
 							<h2>The Six Cases of Nouns</h2>
 
-							<p>A noun has six different meanings, each relating to a <a href="http://www.nationalarchives.gov.uk/latin/beginners/popup/glossary/default.htm#case">case</a> . Each case then has a singular and a plural ending.</p>
+							<p>A noun has six different meanings, each relating to a case. Each case then has a singular and a plural ending.</p>
 							<hr>
 							<!-- 1.NOMINATIVE -->
 							<div class="row-element clearfix">
@@ -189,5 +189,5 @@
 
 						<p>To decline a noun means to list a noun in the form of all these above cases.</p>
 
-						<p>In certain languages, Latin included, nouns are divided into five groups called <a href="http://www.nationalarchives.gov.uk/latin/beginners/popup/glossary/default.htm#declension">declensions</a>. </p>
+						<p>In certain languages, Latin included, nouns are divided into five groups called declensions. </p>
 					</article>

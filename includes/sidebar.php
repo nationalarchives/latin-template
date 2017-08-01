@@ -74,7 +74,7 @@
 			<!-- LESSON 12 LINKS -->
 			<div class="clearfix">
 				<h3><a href="./LessonTemplate.php?Lesson=<?php echo 12 ?>">
-					Lesson 3
+					Lesson 12
 				</a></h3>
 			</div>
 			<div class="clearfix"></div>

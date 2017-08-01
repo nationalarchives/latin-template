@@ -1,5 +1,4 @@
-var lessonNumber;
-var lessonNumberOfSections = 5;
+var lessonNumberOfSections = $('#lesson-content-buttons').attr('data-lesson');
 
 function HideAll() {
     for (var i = 0; i <= lessonNumberOfSections; i++) {

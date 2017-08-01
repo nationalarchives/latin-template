@@ -11,6 +11,7 @@
                     <li><a href="">Glossary</a></li>
                     <li><a href="">Word List</a></li>
                     <li><a href="">Grammar Table</a></li>
+                    <li><a href="">Useful Latin Phrases</a></li>
                     <li><a href="">Dating Latin Documents</a></li>
                     <li><a href="">How to Decline Personal Names</a></li>
                     <li><a href="">Problems with Latin and the Documents</a></li>
