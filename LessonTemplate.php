@@ -20,8 +20,8 @@
             <div class="container">
                 <?php
                 include './includes/lesson-banner.php';
-                include './mainContent.php';
-                include './otherResourcesBanner.php';
+                include './includes/mainContent.php';
+                include './includes/otherResourcesBanner.php';
                 ?>
             </div>
         </main>
