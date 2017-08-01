@@ -2,9 +2,11 @@
 	<div class="sidebar-nav">
 		<div class="sidebar-nav-content">
 			<!-- new side navigation -->
-			<h2>
-				<a href="./LandingPage.php">Back to the Main Latin page</a>
-			</h2>
+            <div class="clearfix">
+                <h2>
+                    <a href="./LandingPage.php">Back to Latin 1086 - 1733</a>
+                </h2>
+            </div>
 			<!-- LESSON 1 LINKS -->
 			<div class="clearfix">
 				<h3><a href="./LessonTemplate.php?Lesson=<?php echo 1 ?>">

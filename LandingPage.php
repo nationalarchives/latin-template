@@ -256,7 +256,7 @@
                 </div>
 
                 <?php
-                    include './otherResourcesBanner.php';
+                    include './includes/otherResourcesBanner.php';
                 ?>
 
             </div>

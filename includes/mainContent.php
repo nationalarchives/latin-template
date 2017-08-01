@@ -2,7 +2,7 @@
     <!-- Tutorials -->
     <div class="row">
         <?php
-        include './includes/sidebar.php';
+            include './includes/sidebar.php';
         ?>
         <div class="col-md-9">
             <?php include 'buttonFinder.php' ?>
