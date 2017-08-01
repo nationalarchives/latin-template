@@ -6,14 +6,21 @@
             </div>
             <div class="entry-content clearfix breather-top">
                 <p>BLURB.</p>
+                <?php
+                    $PrevLesson = $LessonNo-1;
+                    $NextLesson = $LessonNo+1;
+                ?>
                 <div class="alignright">
-                    <?php if ($LessonNo = 1) { ?>
-                        <a class="button" href="./LessonTemplate.php?Lesson=<?php $LessonNo++?>">Next Lesson</a>
-                    <?php } elseif ($LessonNo = 12) { ?>
-                        <a class="button" href="./LessonTemplate.php?Lesson=<?php $LessonNo--?>">Previous Lesson</a>
-                    <?php } else { ?>
-                        <a class="button" href="./LessonTemplate.php?Lesson=<?php $LessonNo--?>">Previous Lesson</a>
-                        <a class="button" href="./LessonTemplate.php?Lesson=<?php $LessonNo++ ?>">Next Lesson</a>
+                    <?php if($LessonNo == 1) { ?>
+                        <a class="button" href="./LessonTemplate.php?Lesson=<?php echo $NextLesson ?>">Next
+                            Lesson</a>
+                    <?php } elseif($LessonNo == 12) { ?>
+                        <a class="button" href="./LessonTemplate.php?Lesson=<?php echo $PrevLesson ?>">Previous
+                            Lesson</a>
+                    <?php } else { ;?>
+                        <a class="button" href="./LessonTemplate.php?Lesson=<?php echo $PrevLesson ?>">Previous
+                            Lesson</a>
+                        <a class="button" href="./LessonTemplate.php?Lesson=<?php echo $NextLesson ?>">Next Lesson</a>
                     <?php } ?>
                 </div>
             </div>
