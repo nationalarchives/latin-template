@@ -8,3 +8,14 @@ th {
 .list-table{
 	width: 100%;
 }
+
+.heading-holding-banner, hr {
+    background: url(../img/dot-grey.png);
+}
+
+.notshow {
+	display: none
+}
+.definitelyshow{
+	display: block
+}
