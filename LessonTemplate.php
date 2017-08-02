@@ -27,9 +27,7 @@
         </main>
         <!-- main content end -->
         <?php
-
                 include "./includes/NewsletterSignup.php";
-
         ?>
 
     </body>
