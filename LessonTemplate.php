@@ -9,7 +9,7 @@
     </head>
 
     <body>
-    <?php $LessonNo = $_GET['Lesson']; ?>
+    <?php $Difficulty = $_GET['Difficulty']; $LessonNo = $_GET['Lesson']; ?>
     <?php
         include './includes/breadcrumbs.php'
     ?>
@@ -33,7 +33,6 @@
     </body>
 
     <footer id="footer" class="breather-top-bottom" role="contentinfo">
-        
         <?php
         include "./includes/footer.php";
         ?>

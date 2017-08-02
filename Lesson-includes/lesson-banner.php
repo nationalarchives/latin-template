@@ -2,7 +2,13 @@
     <div class="col-md-12 banner">
         <article>
             <div class="entry-header">
-                <h1>Beginners' Latin Lesson <?php echo $LessonNo ?></h1>
+                <h1>
+                    <?php if ($Difficulty == "beginners") {
+                        echo "Beginners'";
+                    } else {
+                        echo "Advanced ";
+                    } ?> Latin Lesson <?php echo $LessonNo ?>
+                </h1>
             </div>
             <div class="entry-content clearfix breather-top">
                 <?php
@@ -12,15 +18,15 @@
                 ?>
                 <div class="alignright">
                     <?php if($LessonNo == 1) { ?>
-                        <a class="button" href="./LessonTemplate.php?Lesson=<?php echo $NextLesson ?>">Next
+                        <a class="button" href="./LessonTemplate.php?Difficulty=<?php echo $Difficulty ?>&amp;Lesson=<?php echo $NextLesson ?>">Next
                             Lesson</a>
                     <?php } elseif($LessonNo == 12) { ?>
-                        <a class="button" href="./LessonTemplate.php?Lesson=<?php echo $PrevLesson ?>">Previous
+                        <a class="button" href="./LessonTemplate.php?Difficulty=<?php echo $Difficulty ?>&amp;Lesson=<?php echo $PrevLesson ?>">Previous
                             Lesson</a>
                     <?php } else { ;?>
-                        <a class="button" href="./LessonTemplate.php?Lesson=<?php echo $PrevLesson ?>">Previous
+                        <a class="button" href="./LessonTemplate.php?Difficulty=<?php echo$Difficulty ?>&amp;Lesson=<?php echo $PrevLesson ?>">Previous
                             Lesson</a>
-                        <a class="button" href="./LessonTemplate.php?Lesson=<?php echo $NextLesson ?>">Next Lesson</a>
+                        <a class="button" href="./LessonTemplate.php?Difficulty=<?php echo $Difficulty ?>&amp;Lesson=<?php echo $NextLesson ?>">Next Lesson</a>
                     <?php } ?>
                 </div>
             </div>
