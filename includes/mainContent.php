@@ -1,9 +1,7 @@
 
     <!-- Tutorials -->
     <div class="row">
-        <?php
-            include './includes/sidebar.php';
-        ?>
+
         <div class="col-md-9">
             <?php include 'buttonFinder.php' ?>
             <div id="lesson-content-buttons" class="btn-group" data-lesson="<?php echo $lessonNumberOfSections; ?>">
@@ -22,4 +20,7 @@
             <?php } ?>
             </div>
         </div>
+        <?php
+        include './includes/sidebar.php';
+        ?>
     </div>
