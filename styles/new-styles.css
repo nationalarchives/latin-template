@@ -8,3 +8,36 @@ th {
 .list-table{
 	width: 100%;
 }
+
+.heading-holding-banner, hr {
+    background: url(../img/dot-grey.png);
+}
+
+.notshow {
+	display: none
+}
+.definitelyshow{
+	display: block
+}
+
+
+#lesson-content-buttons .btn-lg {
+    background-color: #008484;
+    color: #fff;
+    border-radius: 0;
+    
+}
+
+#lesson-content-buttons .btn-lg:hover {
+    background-color: #fce45c;
+    color: #111;
+    border-radius: 0;
+}
+
+#lesson-content-buttons .btn-active {
+    background-color: #fce45c;
+    color: #111;
+    border-radius: 0;
+
+
+}
