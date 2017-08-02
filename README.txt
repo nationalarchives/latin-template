@@ -1,4 +1,4 @@
-Rules for the Git workflow:
+Rules for our imitation Git workflow:
 
 - Only one person can write to the MASTER copy per day. They are the MASTER Keyholder (may get a physical signifier for this person).
 - Only DEFINITELY FINISHED and peer-reviewed changes can be merged onto MASTER.
