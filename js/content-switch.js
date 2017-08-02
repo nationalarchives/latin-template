@@ -15,7 +15,7 @@ function HideAll() {
 }
 
 $(HideAll());
-$('#content-1').addClass("show")
+$('#content-1').addClass("show");
 $('button:first-of-type').addClass("btn-active");
 
 $('#lesson-content-buttons button').on('click', function() {
@@ -32,4 +32,4 @@ $('#lesson-content-buttons button').on('click', function() {
     $(target_id).removeClass("hide");
 	$(target_id).addClass("show");
 
-})
+});

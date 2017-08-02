@@ -36,5 +36,5 @@
         <?php
         include "./includes/footer.php";
         ?>
-        <script src="./content-switch.js"></script>
+        <script src="js/content-switch.js"></script>
     </footer>

@@ -9,24 +9,21 @@
             </h2>
         </div>
         <div class="entry-content clearfix">
-            <h3>
-                <a href="./LessonTemplate.php?Difficulty=<?php echo "beginners" ?>&amp;Lesson=<?php echo 1 ?>">
-                    Lesson 1
-                </a>
-            </h3>
-            <ul>
-                <li><a href="" >Learn</a></li>
-                <li><a href="">Test Your Knowledge</a></li>
-            </ul>
-            <h3>
-                <a href="./LessonTemplate.php?Difficulty=<?php echo "beginners" ?>&amp;Lesson=<?php echo 2 ?>">
-                    Lesson 2
-                </a>
-            </h3>
-            <ul>
-                <li><a href="" >Learn</a></li>
-                <li><a href="">Test Your Knowledge</a></li>
-            </ul>
+
+            <button class="btn-lg accordion">Lesson 1</button>
+            <div class="accordion-panel">
+                <ul>
+                    <li><a href="./LessonTemplate.php?Difficulty=<?php echo "beginners" ?>&amp;Lesson=<?php echo 1 ?>">Learn</a></li>
+                    <li><a href="">Test Your Knowledge</a></li>
+                </ul>
+            </div>
+            <button class="btn-lg accordion">Lesson 2</button>
+            <div class="accordion-panel">
+                <ul>
+                    <li><a href="./LessonTemplate.php?Difficulty=<?php echo "beginners" ?>&amp;Lesson=<?php echo 2 ?>">Learn</a></li>
+                    <li><a href="">Test Your Knowledge</a></li>
+                </ul>
+            </div>
             <h3>
                 <a href="./LessonTemplate.php?Difficulty=<?php echo "beginners" ?>&amp;Lesson=<?php echo 3 ?>">
                     Lesson 3

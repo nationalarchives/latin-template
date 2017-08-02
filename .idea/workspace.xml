@@ -2,63 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="674b9a95-360b-4ca3-a1f4-bacffb59ddf5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L6/content-1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L6/content-2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L6/content-3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L6/content-4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L1/activity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L1/content-1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L1/content-2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L1/content-3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L10/content-1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L11/content-1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L12/content-1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L2/activity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L2/content-1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L2/content-2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L2/content-3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L2/content-4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L3/activity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L3/content-1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L3/content-2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L4/content-1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L5/content-1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L6/activity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L6/content-1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L6/content-2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L6/content-3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L6/content-4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L7/content-1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L8/content-1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L9/content-1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L1/activity.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L1/activity.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L1/content-1.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L1/content-1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L1/content-2.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L1/content-2.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L1/content-3.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L1/content-3.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L10/content-1.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L9/content-1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L11/content-1.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L8/content-1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L12/content-1.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L7/content-1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L2/activity.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L2/activity.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L2/content-1.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L2/content-1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L2/content-2.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L2/content-2.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L2/content-3.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L2/content-3.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L2/content-4.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L2/content-4.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L3/activity.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L3/activity.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L3/content-1.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L3/content-1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L3/content-2.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L3/content-2.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L4/content-1.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L6/activity.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L5/content-1.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L5/content-1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L6/content-1.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L4/content-1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L7/content-1.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L12/content-1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L8/content-1.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L11/content-1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson-content/L9/content-1.php" afterPath="$PROJECT_DIR$/lesson-content/advanced-content/L10/content-1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/accordion.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/analytics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/backstretch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/footer-img.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/gtm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/ios-viewport-fix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-2.0.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/mega-menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/modernizr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/skip-link-focus-fix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tna-bindings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tna-definitions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tna-run-on-page-load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/webtrends.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/wp-embed.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/wtid.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/content-switch.js" afterPath="$PROJECT_DIR$/js/content-switch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Latin Template.iml" afterPath="$PROJECT_DIR$/.idea/Latin Template.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LandingPage-includes/AdvancedColumn.php" afterPath="$PROJECT_DIR$/LandingPage-includes/AdvancedColumn.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LandingPage-includes/BeginnersColumn.php" afterPath="$PROJECT_DIR$/LandingPage-includes/BeginnersColumn.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson-includes/buttonFinder.php" afterPath="$PROJECT_DIR$/Lesson-includes/buttonFinder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson-includes/lesson-banner.php" afterPath="$PROJECT_DIR$/Lesson-includes/lesson-banner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson-includes/mainContent.php" afterPath="$PROJECT_DIR$/Lesson-includes/mainContent.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LessonTemplate.php" afterPath="$PROJECT_DIR$/LessonTemplate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/footer.php" afterPath="$PROJECT_DIR$/includes/footer.php" />
     </list>
     <ignored path="Latin Template.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,31 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mainContent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson-includes/mainContent.php">
+      <file leaf-file-name="BeginnersColumn.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LandingPage-includes/BeginnersColumn.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LandingPage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LandingPage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lesson-banner.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lesson-includes/lesson-banner.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            <state relative-caret-position="360">
+              <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -121,15 +68,25 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dropdown</find>
+      <find>btn</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NewsletterSignup.php" />
-        <option value="$PROJECT_DIR$/DocHead.php" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/styles/DocumentHead.php" />
         <option value="$PROJECT_DIR$/ONLYHTMLLATIN/BeginnersLatinLandingPage/index.html" />
         <option value="$PROJECT_DIR$/index.php" />
@@ -171,12 +128,16 @@
         <option value="$PROJECT_DIR$/lesson-content/L6/content-2.php" />
         <option value="$PROJECT_DIR$/lesson-content/L6/content-3.php" />
         <option value="$PROJECT_DIR$/lesson-content/L6/content-4.php" />
-        <option value="$PROJECT_DIR$/LandingPage-includes/BeginnersColumn.php" />
         <option value="$PROJECT_DIR$/LandingPage-includes/AdvancedColumn.php" />
         <option value="$PROJECT_DIR$/LessonTemplate.php" />
         <option value="$PROJECT_DIR$/Lesson-includes/mainContent.php" />
         <option value="$PROJECT_DIR$/Lesson-includes/buttonFinder.php" />
         <option value="$PROJECT_DIR$/Lesson-includes/lesson-banner.php" />
+        <option value="$PROJECT_DIR$/styles/accordian.js" />
+        <option value="$PROJECT_DIR$/LandingPage-includes/BeginnersColumn.php" />
+        <option value="$PROJECT_DIR$/js/content-switch.js" />
+        <option value="$PROJECT_DIR$/js/accordion.js" />
+        <option value="$PROJECT_DIR$/includes/footer.php" />
       </list>
     </option>
   </component>
@@ -229,7 +190,22 @@
             <path>
               <item name="Latin Template" type="b2602c69:ProjectViewProjectNode" />
               <item name="latin-template" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Lesson-includes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Latin Template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="latin-template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Latin Template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="latin-template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="LandingPage-includes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Latin Template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="latin-template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -245,17 +221,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="recentsLimit" value="5" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/annabel/Documents/web-folder/latin-template/buttonFinder.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/lesson-content/beginners-content" />
       <recent name="$PROJECT_DIR$/includes" />
       <recent name="$PROJECT_DIR$/lesson-content/L2" />
       <recent name="$PROJECT_DIR$/constants" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lesson-content/lesson-2-content" />
@@ -304,7 +280,7 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <configuration name="content-switch.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="content-switch.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="content-switch.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/js/content-switch.js" working-dir="$PROJECT_DIR$" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -327,7 +303,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32126000" />
+    <option name="totallyTimeSpent" value="34535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,7 +316,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="230" y="16" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15040432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -415,46 +390,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson-content/beginners-content/L1/content-2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson-content/beginners-content/L1/content-3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson-content/beginners-content/L2/activity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson-content/beginners-content/L1/activity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson-content/beginners-content/L4/content-1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson-content/beginners-content/L5/content-1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -578,14 +513,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/lesson-banner.php" />
-    <entry file="file://$PROJECT_DIR$/styles/base-sass.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5125" column="21" lean-forward="false" selection-start-line="5125" selection-start-column="15" selection-end-line="5125" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainContent.php" />
     <entry file="file://$PROJECT_DIR$/styles/new-styles.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -599,7 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -607,7 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -615,7 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,7 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,7 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,26 +617,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LandingPage-includes/AdvancedColumn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson-content/advanced-content/L1/activity.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content-switch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -733,34 +635,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LandingPage-includes/BeginnersColumn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1998">
-          <caret line="111" column="87" lean-forward="false" selection-start-line="111" selection-start-column="87" selection-end-line="111" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LessonTemplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson-includes/lesson-blurbs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LandingPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -777,6 +655,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson-includes/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="228" column="25" lean-forward="true" selection-start-line="228" selection-start-column="25" selection-end-line="228" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/DocumentHead.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LandingPage-includes/AdvancedColumn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="116" column="14" lean-forward="true" selection-start-line="116" selection-start-column="14" selection-end-line="116" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LandingPage-includes/blurb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/content-switch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/accordion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/base-sass.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="3036" column="6" lean-forward="false" selection-start-line="3036" selection-start-column="3" selection-end-line="3036" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="72" column="23" lean-forward="false" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LandingPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="49" column="16" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LessonTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LandingPage-includes/BeginnersColumn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
           <folding />
         </state>
       </provider>
