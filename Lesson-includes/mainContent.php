@@ -21,6 +21,6 @@
             </div>
         </div>
         <?php
-        include './includes/sidebar.php';
+        include './Lesson-includes/sidebar.php';
         ?>
     </div>

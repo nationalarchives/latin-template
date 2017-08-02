@@ -19,8 +19,8 @@
         <main id="primary" role="main" class="content-area">
             <div class="container">
                 <?php
-                include './includes/lesson-banner.php';
-                include './includes/mainContent.php';
+                include './Lesson-includes/lesson-banner.php';
+                include './Lesson-includes/mainContent.php';
                 include './includes/otherResourcesBanner.php';
                 ?>
             </div>
