@@ -25,7 +25,7 @@ $("a.filter-toggler").on('click', function() {
     HideAll(false);
 
     $this.toggleClass("expanded");
-    $(thisPanel).removeClass("hide");
-    $(thisPanel).addClass("show");
+    $(thisPanel).toggleClass("hide");
+    $(thisPanel).toggleClass("show");
 
 });

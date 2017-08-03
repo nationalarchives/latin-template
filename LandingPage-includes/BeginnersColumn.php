@@ -6,7 +6,7 @@
             </h2>
         </div>
         <div class="entry-content clearfix">
-            <ul>
+            <ul class="available-filters">
                 <?php for ($i=1; $i <= 12; $i++) { ?>
                     <li class="filter-full">
                         <a href="#" class="filter-toggler">Lesson <?php echo $i ?></a>

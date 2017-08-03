@@ -2,7 +2,7 @@
     <article>
         <div class="entry-header">
             <h2>
-                <a href="">Advanced Tutorials</a>
+                Advanced Tutorials
             </h2>
         </div>
         <div class="entry-content clearfix">

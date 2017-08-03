@@ -10,15 +10,15 @@
                     <button class="btn-lg" data-target="content-<?php echo $i+1 ?>"><?php echo $ButtonContent[$i] ?></button>
                 <?php } ?>
             </div>
+
             <div class="lesson-content">
-            <?php for ($i=0; $i<$lessonNumberOfSections;$i++) { ?>
-                <div id="content-<?php echo $i+1 ?>">
-                    <?php
-                        $LC = $LessonContent[$i];
-                        include  './lesson-content' .$LC  . '.php';
-                    ?>
-                </div>
-            <?php } ?>
+                <?php for ($i=0; $i<$lessonNumberOfSections;$i++) { ?>
+                    <div id="content-<?php echo $i+1 ?>">
+                        <?php
+                            include  './lesson-content' . $LessonContent[$i] . '.php';
+                        ?>
+                    </div>
+                <?php } ?>
             </div>
         </div>
         <?php
