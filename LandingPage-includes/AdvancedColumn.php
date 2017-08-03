@@ -6,113 +6,18 @@
             </h2>
         </div>
         <div class="entry-content clearfix">
-            <h3>
-                <a href="./LessonTemplate.php?Difficulty=<?php echo "advanced" ?>&amp;Lesson=<?php echo 1 ?>">
-                    1. Imperfect Tense
-                </a>
-            </h3>
             <ul>
-                <li><a href="" >Learn</a></li>
-                <li><a href="">Test Your Knowledge</a></li>
-            </ul>
-            <h3>
-                <a href="./LessonTemplate.php?Difficulty=<?php echo "advanced" ?>&amp;Lesson=<?php echo 2 ?>">
-                    2. Pluperfect Tense
-                </a>
-            </h3>
-            <ul>
-                <li><a href="" >Learn</a></li>
-                <li><a href="">Test Your Knowledge</a></li>
-            </ul>
-            <h3>
-                <a href="./LessonTemplate.php?Difficulty=<?php echo "advanced" ?>&amp;Lesson=<?php echo 3 ?>">
-                    3. Future Simple Tense
-                </a>
-            </h3>
-            <ul>
-                <li><a href="" >Learn</a></li>
-                <li><a href="">Test Your Knowledge</a></li>
-            </ul>
-            <h3>
-                <a href="./LessonTemplate.php?Difficulty=<?php echo "advanced" ?>&amp;Lesson=<?php echo 4 ?>">
-                    4. Future Perfect Tense
-                </a>
-            </h3>
-            <ul>
-                <li><a href="" >Learn</a></li>
-                <li><a href="">Test Your Knowledge</a></li>
-            </ul>
-            <h3>
-                <a href="./LessonTemplate.php?Difficulty=<?php echo "advanced" ?>&amp;Lesson=<?php echo 5 ?>">
-                    5. Pronouns
-                </a>
-            </h3>
-            <ul>
-                <li><a href="" >Learn</a></li>
-                <li><a href="">Test Your Knowledge</a></li>
-            </ul>
-            <h3>
-                <a href="./LessonTemplate.php?Difficulty=<?php echo "advanced" ?>&amp;Lesson=<?php echo 6 ?>">
-                    6. Passive Verbs
-                </a>
-            </h3>
-            <ul>
-                <li><a href="" >Learn</a></li>
-                <li><a href="">Test Your Knowledge</a></li>
-            </ul>
-            <h3>
-                <a href="./LessonTemplate.php?Difficulty=<?php echo "advanced" ?>&amp;Lesson=<?php echo 7 ?>">
-                    7. Participles - Present, Past and Future
-                </a>
-            </h3>
-            <ul>
-                <li><a href="" >Learn</a></li>
-                <li><a href="">Test Your Knowledge</a></li>
-            </ul>
-            <h3>
-                <a href="./LessonTemplate.php?Difficulty=<?php echo "advanced" ?>&amp;Lesson=<?php echo 8 ?>">
-                    8. Comparison of Adjectives and Adverbs
-                </a>
-            </h3>
-            <ul>
-                <li><a href="" >Learn</a></li>
-                <li><a href="">Test Your Knowledge</a></li>
-            </ul>
-            <h3>
-                <a href="./LessonTemplate.php?Difficulty=<?php echo "advanced" ?>&amp;Lesson=<?php echo 9 ?>">
-                    9. Subjunctive
-                </a>
-            </h3>
-            <ul>
-                <li><a href="" >Learn</a></li>
-                <li><a href="">Test Your Knowledge</a></li>
-            </ul>
-            <h3>
-                <a href="./LessonTemplate.php?Difficulty=<?php echo "advanced" ?>&amp;Lesson=<?php echo 10 ?>">
-                    10. Deponent and Semi-Deponent Verbs
-                </a>
-            </h3>
-            <ul>
-                <li><a href="" >Learn</a></li>
-                <li><a href="">Test Your Knowledge</a></li>
-            </ul>
-            <h3>
-                <a href="./LessonTemplate.php?Difficulty=<?php echo "advanced" ?>&amp;Lesson=<?php echo 11 ?>">
-                    11. Gerunds and Gerundives
-                </a>
-            </h3>
-            <ul>
-                <li><a href="" >Learn</a></li>
-                <li><a href="">Test Your Knowledge</a></li>
-            </ul>
-            <h3>
-                <a href="./LessonTemplate.php?Difficulty=<?php echo "advanced" ?>&amp;Lesson=<?php echo 12 ?>">
-                    12. Infinitives; Accusative and Infinitive Clause
-                </a>
-            </h3>
-            <ul>
-                <li><a href="" >Learn</a></li>
-                <li><a href="">Test Your Knowledge</a></li>
+                <?php for ($LessonNo=1; $LessonNo <= 12; $LessonNo++) { ?>
+                    <li class="filter-full">
+                        <a href="#" class="filter-toggler"><?php echo $LessonNo ?>. <?php include "AdvancedCategories.php" ; echo $LessonName ?></a>
+                        <div class="filter-togglee">
+                            <ul>
+                                <li><a href="./LessonTemplate.php?Difficulty=<?php echo "advanced" ?>&amp;Lesson=<?php echo $LessonNo ?>">Learn</a></li>
+                                <li><a href="">Test Your Knowledge</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                <?php } ?>
             </ul>
         </div>
     </article>
