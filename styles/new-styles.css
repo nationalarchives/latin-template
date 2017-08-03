@@ -38,6 +38,32 @@ th {
     background-color: #fce45c;
     color: #111;
     border-radius: 0;
+}
 
+.filter-toggler.expanded {
+    background-image: url("../img/icon-24-accordion-close.png");
+}
+.filter-toggler {
+    -webkit-transition: background-image 300ms linear;
+    -moz-transition: background-image 300ms linear;
+    -o-transition: background-image 300ms linear;
+    -ms-transition: background-image 300ms linear;
+    transition: background-image 300ms linear;
+    margin-top: 0;
+    text-align: left;
+    display: block;
+    padding: .8em;
+    background-color: #eee;
+    color: #000;
+    border-bottom: 1px solid #DDD;
+    border-top: 1px solid #fff;
+    background-image: url("../img/icon-24-accordion-open.png");
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: 99% center;
+}
 
+.filter-togglee {
+    padding: .5em 0 .5em .75em;
+    text-align: right;
 }

@@ -1,31 +1,31 @@
 function HideAll(isFullHide) {
 
     if (isFullHide) {
-        $("div.accordion-panel").each(function (){
+        $("div.filter-togglee").each(function (){
             $(this).removeClass("show");
             $(this).addClass("hide");
         });
     } else {
-        $("div.accordion-panel:not(#currentpanel)").each(function() {
+        $("div.filter-togglee:not(#currentpanel)").each(function() {
             $(this).removeClass("show");
             $(this).addClass("hide");
         });
+        $("div.filter-togglee#currentpanel").removeAttr("id");
     }
-
-    $("div.accordion-panel#currentpanel").removeAttr("id");
-
 }
 
 $(HideAll(true));
 
-$("button.accordion").on('click', function() {
+$("a.filter-toggler").on('click', function() {
     var $this = $(this),
-        nextPanel = $this.next("div.accordion-panel");
-    $(nextPanel).attr("id", "currentpanel") ;
+        thisPanel = $this.next(".filter-togglee");
+
+    $(thisPanel).attr("id", "currentpanel") ;
 
     HideAll(false);
 
-    $this.toggleClass("btn-active");
-    $(nextPanel).toggleClass("show");
-    $(nextPanel).toggleClass("hide");
+    $this.toggleClass("expanded");
+    $(thisPanel).removeClass("hide");
+    $(thisPanel).addClass("show");
+
 });
