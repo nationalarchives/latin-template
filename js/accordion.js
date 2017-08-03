@@ -1,21 +1,26 @@
 function HideAll() {
     $("div.accordion-panel").each(function (){
-        $(this).removeClass("show");
-        $(this).addClass("hide");
-    });
-    $("button.accordion").each(function() {
-        $(this).removeClass("btn-active");
+        var $this = $(this);
+        if ($this.hasClass("show")) {
+            $this.removeClass("show");
+            $this.addClass("hide");
+        }
     });
 }
 
 $(HideAll());
 
 $("button.accordion").on('click', function() {
-    $(HideAll());
     var $this = $(this),
         nextPanel = $this.next("div.accordion-panel");
+    console.log("HEP HELP IM BEING REPRESSED")
     $this.toggleClass("btn-active");
-    $(nextPanel).removeClass("hide");
-    $(nextPanel).addClass("show");
 
+    if ($(nextPanel).hasClass("show")) {
+        $(nextPanel).removeClass("show");
+        $(nextPanel).addClass("hide");
+    } else {
+        $(nextPanel).addClass("show");
+        $(nextPanel).removeClass("hide");
+    }
 });
