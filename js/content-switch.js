@@ -1,12 +1,12 @@
 var lessonNumberOfSections = $('#lesson-content-buttons').attr('data-lesson');
 
-function HideAll() {
+function ContentHideAll() {
     for (var i = 0; i <= lessonNumberOfSections; i++) {
         var contentID = '#content-'+i;
 
         $(contentID).removeClass("show");
         $(contentID).addClass("hide");
-    };
+    }
 
     $("#lesson-content-buttons button").each(function(){
 
@@ -14,13 +14,15 @@ function HideAll() {
     });
 }
 
-$(HideAll());
-$('#content-1').addClass("show");
+$(ContentHideAll());
+var FirstContent = '#content-1';
+$(FirstContent).removeClass("hide");
+$(FirstContent).addClass("show");
 $('button:first-of-type').addClass("btn-active");
 
 $('#lesson-content-buttons button').on('click', function() {
 
-    $(HideAll());
+    $(ContentHideAll());
 
 	var $this = $(this),
 		target_id = ('#' + $this.data('target'));

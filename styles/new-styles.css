@@ -63,7 +63,7 @@ th {
     background-repeat: no-repeat;
     background-position: 99% center;
     font-family: Bitter, serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .filter-toggler.expanded {
@@ -79,8 +79,10 @@ th {
     text-align: left;
 }
 
-.available-filters ul{
-    list-style-type: none;
+.available-filters ul li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .filter-full a {

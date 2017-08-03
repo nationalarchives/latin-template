@@ -1,4 +1,4 @@
-function HideAll(isFullHide) {
+function AccordionHideAll(isFullHide) {
 
     if (isFullHide) {
         $("div.filter-togglee").each(function (){
@@ -14,18 +14,19 @@ function HideAll(isFullHide) {
     }
 }
 
-$(HideAll(true));
+$(AccordionHideAll(true));
 
-$("a.filter-toggler").on('click', function() {
+$("a.filter-toggler").on('click', function( event ) {
     var $this = $(this),
         thisPanel = $this.next(".filter-togglee");
 
+    event.preventDefault();
+
     $(thisPanel).attr("id", "currentpanel") ;
 
-    HideAll(false);
+    AccordionHideAll(false);
 
     $this.toggleClass("expanded");
     $(thisPanel).toggleClass("hide");
     $(thisPanel).toggleClass("show");
-
 });

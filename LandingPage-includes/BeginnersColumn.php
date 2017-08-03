@@ -9,7 +9,7 @@
             <ul class="available-filters">
                 <?php for ($i=1; $i <= 12; $i++) { ?>
                     <li class="filter-full">
-                        <a href="#" class="filter-toggler">Lesson <?php echo $i ?></a>
+                        <a href="#/" class="filter-toggler">Lesson <?php echo $i ?></a>
                         <div class="filter-togglee">
                             <ul>
                                 <li><a href="./LessonTemplate.php?Difficulty=<?php echo "beginners" ?>&amp;Lesson=<?php echo $i ?>">Learn</a></li>
