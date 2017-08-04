@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="674b9a95-360b-4ca3-a1f4-bacffb59ddf5" name="Default" comment="" />
+    <list default="true" id="674b9a95-360b-4ca3-a1f4-bacffb59ddf5" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inc/landing-page-includes/beginnerscolumn.php" afterPath="$PROJECT_DIR$/inc/landing-page-includes/beginners-column.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/default-page.php" afterPath="$PROJECT_DIR$/default-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/other-resources-banner.php" afterPath="$PROJECT_DIR$/inc/other-resources-banner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing-page.php" afterPath="$PROJECT_DIR$/landing-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/LessonTemplate.php" afterPath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/LessonTemplate.php" />
+    </list>
     <ignored path="Latin Template.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -31,72 +37,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LessonTemplate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LessonTemplate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-              <folding>
-                <marker date="1501848804270" expanded="true" signature="604:687" ph="..." />
-                <marker date="1501848804270" expanded="true" signature="640:687" ph="..." />
-                <marker date="1501848804270" expanded="true" signature="1107:1240" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainContent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson-includes/mainContent.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson-includes/sidebar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity-action.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson-content/beginners-content/L3/activity-action.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson-content/beginners-content/L3/activity.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-              <folding>
-                <marker date="1501848200446" expanded="true" signature="366:450" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuestionLoader.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QuestionLoader.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="85" lean-forward="false" selection-start-line="1" selection-start-column="85" selection-end-line="1" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="content-switch.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/content-switch.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,11 +47,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buttonFinder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson-includes/buttonFinder.php">
+      <file leaf-file-name="default-page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/default-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="594">
+              <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+              <folding>
+                <marker date="1501859632359" expanded="true" signature="362:452" ph="..." />
+                <marker date="1501859632359" expanded="true" signature="398:452" ph="..." />
+                <marker date="1501859632359" expanded="true" signature="688:816" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="breadcrumbs.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/breadcrumbs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="other-resources-banner.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/other-resources-banner.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing-page.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/landing-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -141,10 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/includes/lesson-banner.php" />
-        <option value="$PROJECT_DIR$/otherResourcesBanner.php" />
-        <option value="$PROJECT_DIR$/content-switch.js" />
-        <option value="$PROJECT_DIR$/buttonFinder.php" />
         <option value="$PROJECT_DIR$/mainContent.php" />
         <option value="$PROJECT_DIR$/lesson-content/L1/content-1.php" />
         <option value="$PROJECT_DIR$/lesson-content/L2/content-1.php" />
@@ -192,6 +162,10 @@
         <option value="$PROJECT_DIR$/lesson-content/beginners-content/L3/activity.php" />
         <option value="$PROJECT_DIR$/LessonTemplate.php" />
         <option value="$PROJECT_DIR$/lesson-content/beginners-content/L3/activity-action.php" />
+        <option value="$PROJECT_DIR$/landing-page.php" />
+        <option value="$PROJECT_DIR$/inc/other-resources-banner.php" />
+        <option value="$PROJECT_DIR$/prototypes/annabel-latin-prototype/LessonTemplate.php" />
+        <option value="$PROJECT_DIR$/default-page.php" />
       </list>
     </option>
   </component>
@@ -241,6 +215,11 @@
             <path>
               <item name="Latin Template" type="b2602c69:ProjectViewProjectNode" />
               <item name="latin-template" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Latin Template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="latin-template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -335,12 +314,12 @@
       <workItem from="1501589342286" duration="8564000" />
       <workItem from="1501747437306" duration="2819000" />
       <workItem from="1501750356605" duration="17691000" />
-      <workItem from="1501835556220" duration="13410000" />
+      <workItem from="1501835556220" duration="15073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68455000" />
+    <option name="totallyTimeSpent" value="70118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,8 +332,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="230" y="16" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12884097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12884097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -417,17 +397,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/includes/buttonFinder.php" />
-    <entry file="file://$PROJECT_DIR$/includes/sidebar.php" />
-    <entry file="file://$PROJECT_DIR$/includes/mainContent.php" />
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/lesson-banner.php" />
     <entry file="file://$PROJECT_DIR$/mainContent.php" />
     <entry file="file://$PROJECT_DIR$/otherResources/glossary.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -600,9 +569,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="50" lean-forward="true" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -690,9 +657,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <marker date="1501774497819" expanded="false" signature="686:691" ph="&amp;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -736,23 +701,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/content-switch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="59" lean-forward="false" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LessonTemplate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding>
-            <marker date="1501848804270" expanded="true" signature="604:687" ph="..." />
-            <marker date="1501848804270" expanded="true" signature="640:687" ph="..." />
-            <marker date="1501848804270" expanded="true" signature="1107:1240" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -760,9 +713,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <marker date="1501848200446" expanded="true" signature="366:450" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -778,6 +729,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/content-switch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="59" lean-forward="false" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/other-resources-banner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/breadcrumbs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototypes/annabel-latin-prototype/LessonTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+          <folding>
+            <marker date="1501859632359" expanded="true" signature="362:452" ph="..." />
+            <marker date="1501859632359" expanded="true" signature="398:452" ph="..." />
+            <marker date="1501859632359" expanded="true" signature="688:816" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
       </provider>

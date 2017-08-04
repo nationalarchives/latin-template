@@ -2,8 +2,8 @@
     <head>
     <title>Learn Latin</title>
         <?php
-            include "./includes/DocumentHead.php";
-            include "./includes/header.php";
+            include "./inc/document-head.php";
+            include "./inc/header.php";
         ?>
     </head>
 
@@ -11,7 +11,7 @@
         <!-- breadcrumbs start -->
 
         <?php
-        include './includes/breadcrumbs.php';
+        include './inc/breadcrumbs.php';
         ?>
 
         <!-- breadcrumbs end -->
@@ -21,25 +21,25 @@
         <main id="primary" role="main" class="content-area">
             <div class="container">
                 <?php
-                    include './LandingPage-includes/banner.php';
-                    include './LandingPage-includes/blurb.php'
+                    include './inc/landing-page-includes/banner.php';
+                    include './inc/landing-page-includes/landing-page-blurb.php'
                 ?>
                 <!-- Tutorials -->
                 <div class="row">
                     <?php
-                        include './LandingPage-includes/BeginnersColumn.php';
-                        include './LandingPage-includes/AdvancedColumn.php'
+                    include './inc/landing-page-includes/beginners-column.php';
+                    include './inc/landing-page-includes/advanced-column.php';
                     ?>
                 </div>
                 <?php
-                    include './includes/otherResourcesBanner.php';
+                    include './inc/other-resources-banner.php';
                 ?>
             </div>
         </main>
         <!-- main content end -->
         <?php
 
-                include "./includes/NewsletterSignup.php";
+                include "./inc/newsletter-signup.php";
 
         ?>
 
@@ -47,7 +47,7 @@
 
     <footer id="footer" class="breather-top-bottom" role="contentinfo">
         <?php
-        include "./includes/footer.php";
+        include "./inc/footer.php";
         ?>
 
     </footer>
