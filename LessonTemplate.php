@@ -9,14 +9,21 @@
     </head>
 
     <body>
-    <?php $Difficulty = $_GET['Difficulty']; $LessonNo = $_GET['Lesson']; ?>
+
     <?php
-        include './includes/breadcrumbs.php'
+    $Difficulty = $_GET['Difficulty'];
+    $LessonNo = $_GET['Lesson'];
+    if (isset($_GET['isActivity'])) {
+        $isActivityAction = true;
+    } else {
+        $isActivityAction = false;
+    }
+    include './includes/breadcrumbs.php'
     ?>
 
         <!-- main content start -->
 
-        <main id="primary" role="main" class="content-area">
+        <main id="primary" role="main" class="content-area" data-actact="<?php echo $isActivityAction ?>">
             <div class="container">
                 <?php
                 include './Lesson-includes/lesson-banner.php';

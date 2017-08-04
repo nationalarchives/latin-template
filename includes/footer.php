@@ -84,5 +84,6 @@
           integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
           crossorigin="anonymous">
     </script>
+    <script src="./js/TNAModernizr.js"></script>
     <script src="./js/accordion.js"></script>
 

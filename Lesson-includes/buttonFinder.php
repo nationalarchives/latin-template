@@ -14,7 +14,11 @@ if ($Difficulty == "beginners") {
         case 3 :
             $lessonNumberOfSections = 3;
             $ButtonContent = array("Second Declension Nouns", "<em>Esse</em> - to be", "Activity");
-            $LessonContent = array("/beginners-content/L3/content-1","/beginners-content/L3/content-2", "/beginners-content/L3/activity");
+            if ($isActivityAction) {
+                $LessonContent = array("/beginners-content/L3/content-1", "/beginners-content/L3/content-2", "/beginners-content/L3/activity-action");
+            } else {
+                $LessonContent = array("/beginners-content/L3/content-1","/beginners-content/L3/content-2", "/beginners-content/L3/activity");
+            }
             break;
         case 4 :
             $lessonNumberOfSections = 5;

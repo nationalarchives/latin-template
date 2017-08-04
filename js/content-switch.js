@@ -1,4 +1,5 @@
 var lessonNumberOfSections = $('#lesson-content-buttons').attr('data-lesson');
+var isActivityAction = $('#primary').attr('data-actact');
 
 function ContentHideAll() {
     for (var i = 0; i <= lessonNumberOfSections; i++) {
@@ -14,8 +15,16 @@ function ContentHideAll() {
     });
 }
 
+var FirstContent;
+
 $(ContentHideAll());
-var FirstContent = '#content-1';
+
+if (isActivityAction) {
+    FirstContent='#content-' + lessonNumberOfSections;
+} else {
+    FirstContent = '#content-1';
+}
+
 $(FirstContent).removeClass("hide");
 $(FirstContent).addClass("show");
 $('button:first-of-type').addClass("btn-active");
