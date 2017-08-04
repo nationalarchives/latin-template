@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="674b9a95-360b-4ca3-a1f4-bacffb59ddf5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuestionLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/TNAModernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/quizJS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L3/activity-action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Latin Template.iml" afterPath="$PROJECT_DIR$/.idea/Latin Template.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson-includes/buttonFinder.php" afterPath="$PROJECT_DIR$/Lesson-includes/buttonFinder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LessonTemplate.php" afterPath="$PROJECT_DIR$/LessonTemplate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/footer.php" afterPath="$PROJECT_DIR$/includes/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/content-switch.js" afterPath="$PROJECT_DIR$/js/content-switch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson-content/beginners-content/L3/activity.php" afterPath="$PROJECT_DIR$/lesson-content/beginners-content/L3/activity.php" />
-    </list>
+    <list default="true" id="674b9a95-360b-4ca3-a1f4-bacffb59ddf5" name="Default" comment="" />
     <ignored path="Latin Template.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -348,12 +335,12 @@
       <workItem from="1501589342286" duration="8564000" />
       <workItem from="1501747437306" duration="2819000" />
       <workItem from="1501750356605" duration="17691000" />
-      <workItem from="1501835556220" duration="13390000" />
+      <workItem from="1501835556220" duration="13410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68435000" />
+    <option name="totallyTimeSpent" value="68455000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

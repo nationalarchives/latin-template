@@ -1,7 +1,3 @@
-<h1> TNA Latin Page Template / Prototypes</h1>
-
-
-
 Rules for our imitation Git workflow:
 
 - Only one person can write to the MASTER copy per day. They are the MASTER Keyholder (may get a physical signifier for this person).
