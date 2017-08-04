@@ -33,7 +33,7 @@
             } elseif ($resourcespage != null) {
                 include './content/other-resources-content/'. $resourcespage . '.php';
             } else {
-                echo 'AN ERROR HAS OCCURED';
+                echo 'AN ERROR HAS OCCURRED';
                 include './inc/other-resources-banner.php';
             }
             ?>

@@ -2,13 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="674b9a95-360b-4ca3-a1f4-bacffb59ddf5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/default-page.php" afterPath="$PROJECT_DIR$/default-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/breadcrumbs.php" afterPath="$PROJECT_DIR$/inc/breadcrumbs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/other-resources-banner.php" afterPath="$PROJECT_DIR$/inc/other-resources-banner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/accordion.js" afterPath="$PROJECT_DIR$/js/accordion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/content-switch.js" afterPath="$PROJECT_DIR$/js/content-switch.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/LandingPage-includes/AdvancedCategories.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/LandingPage-includes/AdvancedColumn.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/LandingPage-includes/BeginnersCategories.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/LandingPage-includes/BeginnersColumn.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/LandingPage-includes/banner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/LandingPage-includes/blurb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/Lesson-includes/buttonFinder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/Lesson-includes/lesson-banner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/Lesson-includes/lesson-blurbs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/Lesson-includes/mainContent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/Lesson-includes/sidebar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/QuestionLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/includes/DocumentHead.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/includes/NewsletterSignup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/includes/breadcrumbs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/includes/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/includes/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/includes/otherResourcesBanner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L1/activity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L1/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L1/content-2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L1/content-3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L10/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L11/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L12/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L2/activity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L2/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L2/content-2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L2/content-3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L2/content-4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L3/activity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L3/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L3/content-2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L4/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L5/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L6/activity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L6/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L6/content-2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L6/content-3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L6/content-4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L7/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L8/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/advanced-content/L9/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L1/activity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L1/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L1/content-2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L1/content-3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L10/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L11/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L12/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L2/activity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L2/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L2/content-2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L2/content-3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L2/content-4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L3/activity-action.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L3/activity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L3/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L3/content-2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L4/activity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L4/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L4/content-2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L4/content-3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L4/content-4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L5/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L5/content-2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L5/content-3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L5/content-4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L6/activity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L6/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L6/content-2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L6/content-3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L6/content-4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L7/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L7/content-2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L8/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/lesson-content/beginners-content/L9/content-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/otherResources/dating-latin-documents.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/otherResources/declining-personal-names.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/otherResources/glossary.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/otherResources/grammar-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/otherResources/problems-with-latin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/otherResources/useful-latin-phrases.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/otherResources/word-list.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing-page.php" afterPath="$PROJECT_DIR$/landing-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/new-styles.css" afterPath="$PROJECT_DIR$/styles/new-styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/LessonTemplate.php" afterPath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/LessonTemplate.php" />
     </list>
     <ignored path="Latin Template.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +117,38 @@
     <favorites_list name="Latin Template" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="default-page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/default-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing-page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LessonTemplate.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prototypes/annabel-latin-prototype/LessonTemplate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,14 +215,14 @@
         <option value="$PROJECT_DIR$/lesson-content/beginners-content/L3/activity.php" />
         <option value="$PROJECT_DIR$/LessonTemplate.php" />
         <option value="$PROJECT_DIR$/lesson-content/beginners-content/L3/activity-action.php" />
-        <option value="$PROJECT_DIR$/prototypes/annabel-latin-prototype/LessonTemplate.php" />
-        <option value="$PROJECT_DIR$/landing-page.php" />
         <option value="$PROJECT_DIR$/inc/breadcrumbs.php" />
         <option value="$PROJECT_DIR$/default-page.php" />
         <option value="$PROJECT_DIR$/js/content-switch.js" />
         <option value="$PROJECT_DIR$/inc/other-resources-banner.php" />
         <option value="$PROJECT_DIR$/js/accordion.js" />
         <option value="$PROJECT_DIR$/styles/new-styles.css" />
+        <option value="$PROJECT_DIR$/landing-page.php" />
+        <option value="$PROJECT_DIR$/prototypes/annabel-latin-prototype/LessonTemplate.php" />
       </list>
     </option>
   </component>
@@ -162,6 +272,17 @@
             <path>
               <item name="Latin Template" type="b2602c69:ProjectViewProjectNode" />
               <item name="latin-template" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Latin Template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="latin-template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="prototypes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Latin Template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="latin-template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="prototypes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="annabel-latin-prototype" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -256,12 +377,12 @@
       <workItem from="1501589342286" duration="8564000" />
       <workItem from="1501747437306" duration="2819000" />
       <workItem from="1501750356605" duration="17691000" />
-      <workItem from="1501835556220" duration="15498000" />
+      <workItem from="1501835556220" duration="16269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70543000" />
+    <option name="totallyTimeSpent" value="71314000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -274,8 +395,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="230" y="16" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12884097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12884097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -658,31 +780,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prototypes/annabel-latin-prototype/LessonTemplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/breadcrumbs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/default-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <marker date="1501859994351" expanded="true" signature="168:258" ph="..." />
-            <marker date="1501859994351" expanded="true" signature="204:258" ph="..." />
-            <marker date="1501859994351" expanded="true" signature="414:428" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -702,14 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landing-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/new-styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -722,6 +816,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototypes/annabel-latin-prototype/LessonTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding />
         </state>
       </provider>
