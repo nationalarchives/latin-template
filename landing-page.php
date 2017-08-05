@@ -15,7 +15,7 @@
                     <?php
                     include './inc/lesson-includes/lesson-banner.php';
                     if ($Difficulty != null && $LessonNo != null ) {
-                        include './inc/lesson-includes/main-lesson-content.php';
+                        include './inc/lesson-includes/default-page-content.php';
                         include './inc/other-resources-banner.php';
                     } elseif ($resourcespage != null) {
                         include './content/other-resources-content/'. $resourcespage . '.php';

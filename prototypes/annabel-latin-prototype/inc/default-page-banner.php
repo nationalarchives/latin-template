@@ -5,19 +5,11 @@
                 <h1>
                     <!--BANNER TITLE-->
                     <?php if ($isLesson) {
-                        if ($Difficulty == "beginners") {
-                            echo "Beginners'";
-                        } else {
-                            echo "Advanced ";
-                        } echo "Latin Lesson" . $LessonNo;
+                        echo ucfirst($Difficulty). " Latin Lesson " . $LessonNo;
                     } elseif ($isActivity) {
-                        if ($Difficulty == "beginners") {
-                        echo "Beginners'";
-                        } else {
-                        echo "Advanced ";
-                        } echo "Latin Activity" . $LessonNo;
+                        echo ucfirst($Difficulty). " Latin Activity " . $ActivityNo;
                     } elseif ($isResource) {
-                        echo $Resource;
+                        echo getresourcename($Resource);
                     } ?>
                 </h1>
             </div>

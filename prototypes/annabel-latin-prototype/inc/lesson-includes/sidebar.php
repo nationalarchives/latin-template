@@ -33,7 +33,7 @@
                     <ul class="available-filters">
                         <?php for ($AdvancedLessonNo=1; $AdvancedLessonNo <= 12; $AdvancedLessonNo++) { ?>
                             <li class="filter-full">
-                                <a href="#" class="filter-toggler"><?php echo $AdvancedLessonNo ?>. <?php include "./inc/advanced-lesson-categories.php"; echo $LessonName ?></a>
+                                <a href="#" class="filter-toggler"><?php echo $AdvancedLessonNo ?>. <?php echo getAdvLessonName($AdvancedLessonNo) ?></a>
                                 <div class="filter-togglee">
                                     <ul>
                                         <li><a href="./default-page.php?Difficulty=<?php echo "advanced" ?>&amp;Lesson=<?php echo $AdvancedLessonNo ?>">Learn</a></li>

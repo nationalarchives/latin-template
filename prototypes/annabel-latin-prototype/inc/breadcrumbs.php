@@ -13,7 +13,7 @@
                         <span class="sep">&gt;</span> <span> <?php echo ucfirst($Difficulty) ?> Activity <?php echo $ActivityNo ?></span>
                     <?php } elseif (isset($isResource) && $isResource) { ?>
                         <span class="sep">&gt;</span> <span><a href="./landing-page.php">Learn Latin 1086 - 1733</a></span>
-                        <span class="sep">&gt;</span> <span> <?php echo $Resource ?></span>
+                        <span class="sep">&gt;</span> <span> <?php echo getresourcename($Resource) ?></span>
                     <?php } else { ?>
                         <span class="sep">&gt;</span> <span>Learn Latin 1086 - 1733</span>
                     <?php } ?>
