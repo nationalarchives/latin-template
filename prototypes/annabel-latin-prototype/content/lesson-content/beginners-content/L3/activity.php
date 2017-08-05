@@ -1,7 +1,7 @@
 <article>
     <div class="entry-content clearfix">
         <?php
-        include "./QuestionLoader.php"
+        include "./question-loader.php"
         ?>
         <form action="./LessonTemplate.php?Difficulty=<?php echo $Difficulty ?>&amp;Lesson=<?php echo $LessonNo ?>&amp;isActivity=<?php echo "true" ?>" method="post" id="Quiz">
             <?php for ($i=1; $i <= 3; $i++) { ?>

@@ -3,7 +3,7 @@
     <div class="row">
 
         <div class="col-md-9 col-sm-9 col-xs-12">
-            <?php include 'buttonFinder.php'?>
+            <?php include 'content-loader.php'?>
 
             <div id="lesson-content-buttons" class="btn-group" data-lesson="<?php echo $lessonNumberOfSections; ?>">
                 <?php for ($i = 0; $i < $lessonNumberOfSections; $i++) { ?>
@@ -15,13 +15,13 @@
                 <?php for ($i=0; $i<$lessonNumberOfSections;$i++) { ?>
                     <div id="content-<?php echo $i+1 ?>">
                         <?php
-                            include  './lesson-content' . $LessonContent[$i] . '.php';
+                            include  './content/lesson-content' . $LessonContent[$i] . '.php';
                         ?>
                     </div>
                 <?php } ?>
             </div>
         </div>
         <?php
-        include './Lesson-includes/sidebar.php';
+        include './inc/lesson-includes/sidebar.php';
         ?>
     </div>

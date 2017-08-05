@@ -1,5 +1,5 @@
 <?php
-    switch ($LessonNo) {
+    switch ($AdvancedLessonNo) {
         case 1:
             $LessonName = "Imperfect Tense";
             break;
