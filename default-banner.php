@@ -7,7 +7,7 @@
                 </h1>
             </div>
             <div class="entry-content clearfix breather-top">
-               BLURB
+                BLURB
 
             </div>
         </article>

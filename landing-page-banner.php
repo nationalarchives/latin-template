@@ -3,11 +3,11 @@
         <article>
             <div class="entry-header">
                 <h1>
-                    LESSON
+                    BANNER
                 </h1>
             </div>
             <div class="entry-content clearfix breather-top">
-               BLURB
+
 
             </div>
         </article>

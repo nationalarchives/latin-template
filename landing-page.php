@@ -1,34 +1,37 @@
 <!DOCTYPE html>
     <head>
     <title></title>
+    <?php include './inc/document-head.php'; include './inc/header.php' ?>
     </head>
 
     <body>
         <!-- breadcrumbs start -->
+        <?php include './inc/breadcrumbs.php' ?>
         <!-- breadcrumbs end -->
+
+
+
 
         <!-- main content start -->
         <main id="primary" role="main" class="content-area">
+
             <div class="container">
                 <!-- Tutorials -->
+
+                <?php include 'landing-page-banner.php' ?>
+
                 <div class="row">
                     <?php
-                    include './inc/lesson-includes/lesson-banner.php';
-                    if ($Difficulty != null && $LessonNo != null ) {
-                        include './inc/lesson-includes/default-page-content.php';
-                        include './inc/other-resources-banner.php';
-                    } elseif ($resourcespage != null) {
-                        include './content/other-resources-content/'. $resourcespage . '.php';
-                    } else {
-                        echo 'AN ERROR HAS OCCURED';
-                        include './inc/other-resources-banner.php';
-                    }
+                    include './inc/landing-page-includes/beginners-column.php';
+                    include './inc/landing-page-includes/advanced-column.php';
                     ?>
                 </div>
+                <?php include './inc/other-resources-banner.php'; ?>
             </div>
         </main>
         <!-- main content end -->
     </body>
 
     <footer id="footer" class="breather-top-bottom" role="contentinfo">
+        <?php include './inc/footer.php'?>
     </footer>
