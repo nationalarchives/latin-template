@@ -21,7 +21,7 @@
         elseif ($isActivity) { ?>
             <div class="activity-content">
                 <?php
-                include  './content/lesson-content/L' . $ActivityNo . '/activity.php';
+                include "./content/activity-content.php";
                 ?>
             </div>
         <?php }
