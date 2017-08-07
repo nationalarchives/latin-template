@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="674b9a95-360b-4ca3-a1f4-bacffb59ddf5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/functions/general-functions.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/general-functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/blurbs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/lesson-includes/lesson-content-loader.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/lesson-includes/lesson-banner.php" afterPath="$PROJECT_DIR$/inc/lesson-includes/lesson-banner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/content/other-resources-content/glossary.php" afterPath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/content/other-resources-content/glossary.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/content/other-resources-content/grammar-table.php" afterPath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/content/other-resources-content/grammar-table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/default-page.php" afterPath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/default-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/default-page-banner.php" afterPath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/default-page-banner.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/default-page-content.php" afterPath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/default-page-content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/document-head.php" afterPath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/document-head.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/other-resources-banner.php" afterPath="$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/other-resources-banner.php" />
     </list>
     <ignored path="Latin Template.iws" />
@@ -64,31 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default-page.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="default-page.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prototypes/annabel-latin-prototype/default-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="other-resources-banner.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/other-resources-banner.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default-page-content.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/default-page-content.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="293">
+              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -104,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="glossary.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="glossary.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prototypes/annabel-latin-prototype/content/other-resources-content/glossary.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -183,12 +153,12 @@
         <option value="$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/document-head.php" />
         <option value="$PROJECT_DIR$/inc/lesson-includes/lesson-banner.php" />
         <option value="$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/default-page-banner.php" />
-        <option value="$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/other-resources-banner.php" />
         <option value="$PROJECT_DIR$/prototypes/annabel-latin-prototype/functions/general-functions.php" />
-        <option value="$PROJECT_DIR$/prototypes/annabel-latin-prototype/default-page.php" />
-        <option value="$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/default-page-content.php" />
         <option value="$PROJECT_DIR$/prototypes/annabel-latin-prototype/content/other-resources-content/grammar-table.php" />
         <option value="$PROJECT_DIR$/prototypes/annabel-latin-prototype/content/other-resources-content/glossary.php" />
+        <option value="$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/other-resources-banner.php" />
+        <option value="$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/default-page-content.php" />
+        <option value="$PROJECT_DIR$/prototypes/annabel-latin-prototype/default-page.php" />
       </list>
     </option>
   </component>
@@ -383,12 +353,12 @@
       <workItem from="1501750356605" duration="17691000" />
       <workItem from="1501835556220" duration="16269000" />
       <workItem from="1501942279906" duration="10529000" />
-      <workItem from="1502093014322" duration="5205000" />
+      <workItem from="1502093014322" duration="5475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87056000" />
+    <option name="totallyTimeSpent" value="87326000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -683,14 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/other-resources-banner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prototypes/annabel-latin-prototype/functions/general-functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -708,26 +670,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prototypes/annabel-latin-prototype/default-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prototypes/annabel-latin-prototype/content/other-resources-content/dating-latin-documents.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/default-page-content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -744,6 +690,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/default-page-content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototypes/annabel-latin-prototype/inc/other-resources-banner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototypes/annabel-latin-prototype/default-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding />
         </state>
       </provider>

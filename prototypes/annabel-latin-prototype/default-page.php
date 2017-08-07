@@ -21,16 +21,11 @@
 
     <main id="primary" role="main" class="content-area">
         <div class="container">
-
             <?php
-            include './inc/default-page-banner.php';
-            ?>
-            <div class="row">
-                <?php
+                include './inc/default-page-banner.php';
                 include './inc/default-page-content.php';
                 include './inc/other-resources-banner.php';
-                ?>
-            </div>
+            ?>
         </div>
     </main>
 
