@@ -9,10 +9,10 @@
                 <?php } ?>
             </div>
             <div class="lesson-content">
-                <?php for ($i=0; $i<numberOfSections($Difficulty, $LessonNo);$i++) { ?>
-                    <div id="content-<?php echo $i+1 ?>">
+                <?php for ($i=1; $i<=numberOfSections($Difficulty, $LessonNo);$i++) { ?>
+                    <div id="content-<?php echo $i ?>">
                         <?php
-                            include  './content/lesson-content' . contentLocations($Difficulty, $LessonNo)[$i] . '.php';
+                            beginnersContent($LessonNo, $i);
                         ?>
                     </div>
                 <?php } ?>

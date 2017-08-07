@@ -5,6 +5,7 @@
 
             include "./inc/document-head.php";
             include "./inc/header.php";
+            include "./content/lessons-content.php"
         ?>
     </head>
 

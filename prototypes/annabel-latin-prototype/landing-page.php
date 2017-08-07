@@ -21,7 +21,7 @@
         <main id="primary" role="main" class="content-area">
             <div class="container">
                 <?php
-                    include './inc/landing-page-includes/banner.php';
+                    include './inc/landing-page-includes/landing-page-banner.php';
                     include './inc/landing-page-includes/landing-page-blurb.php'
                 ?>
                 <!-- Tutorials -->
