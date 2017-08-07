@@ -11,9 +11,6 @@
     <body>
 
     <?php
-    $isActivity = false;
-    $isLesson = false;
-    $isResource = false;
 
     loadPageType();
 
@@ -27,19 +24,22 @@
 
             <?php
             include './inc/default-page-banner.php';
-            include './inc/default-page-content.php';
-            include './inc/other-resources-banner.php';
             ?>
+            <div class="row">
+                <?php
+                include './inc/default-page-content.php';
+                include './inc/other-resources-banner.php';
+                ?>
+            </div>
         </div>
     </main>
+
     <!-- main content end -->
+
     <?php
     include "./inc/newsletter-signup.php";
     ?>
-        <!-- main content end -->
-        <?php
-                include "./inc/newsletter-signup.php";
-        ?>
+
 
     </body>
 

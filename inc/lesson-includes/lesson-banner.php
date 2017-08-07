@@ -12,7 +12,7 @@
             </div>
             <div class="entry-content clearfix breather-top">
                 <?php
-                    include './inc/blurbs.php';
+                    include './lesson-blurbs.php';
                     $PrevLesson = $LessonNo-1;
                     $NextLesson = $LessonNo+1;
                 ?>
