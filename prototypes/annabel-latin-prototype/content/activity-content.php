@@ -153,11 +153,15 @@
                     </div>
                 </div>
 
-                <a class="button" href="?Difficulty=<?= $Difficulty ?>&amp;Activity=<?= $ActivityNo ?>&amp;QuestionNumber=<?= $NextQ ?>"> Go To Next Question </a>
-
                 <?php
 
                 echo "Your current score is " . $_SESSION["Score"];
+
+                ?>
+
+                <a class="button" href="?Difficulty=<?= $Difficulty ?>&amp;Activity=<?= $ActivityNo ?>&amp;QuestionNumber=<?= $NextQ ?>"> Go To Next Question </a>
+
+                <?php
 
             } elseif (numberOfQuestions($Difficulty, $ActivityNo) == 8) { //IF IT IS A RADIO BUTTON TYPE
 
