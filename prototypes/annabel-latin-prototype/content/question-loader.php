@@ -3,62 +3,53 @@ if ($Difficulty == "beginners") {
     switch ($ActivityNo) {
         case 2:
             $Categories = array("Nominative", "Vocative", "Accusative", "Genitive", "Dative", "Ablative");
+            $Types = array("Singular", "Plural");
+            $CorrectEndings = array(
+                "Singular" => array(
+                    "Nominative" => "a",
+                    "Vocative" => "a",
+                    "Accusative" => "am",
+                    "Genitive" => "e",
+                    "Dative" => "e",
+                    "Ablative" => "a"),
+                "Plural" => array(
+                    "Nominative" => "e",
+                    "Vocative" => "e",
+                    "Accusative" => "as",
+                    "Genitive" => "arum",
+                    "Dative" => "is",
+                    "Ablative" => "is")
+            );
             $QnA = array (
                 "Question 1" => array(
                     "Word" => "terra",
                     "Meaning" => "land",
-                    "Answers" => array(
-                        "Singular" => array(
-                            "Nominative" => "terra",
-                            "Vocative" => "terra",
-                            "Accusative" => "terram",
-                            "Genitive" => "terre",
-                            "Dative" => "terre",
-                            "Ablative" => "terra"
-                        ),
-                        "Plural" => array(
-                            "Nominative" => "terre",
-                            "Vocative" => "terre",
-                            "Accusative" => "terras",
-                            "Genitive" => "terrarum",
-                            "Dative" => "terris",
-                            "Ablative" => "terris"
-                        )
-                    )
+                    "Beginning" => "terr"
                 ),
                 "Question 2" => array(
                     "Word" => "carta",
                     "Meaning" => "charter",
-                    "Answers" => array(
-                        "Singular" => array(
-                            "Nominative" => "carta",
-                            "Vocative" => "carta",
-                            "Accusative" => "cartam",
-                            "Genitive" => "carte",
-                            "Dative" => "carte",
-                            "Ablative" => "carta"
-                        ),
-                        "Plural" => array(
-                            "Nominative" => "carte",
-                            "Vocative" => "carte",
-                            "Accusative" => "cartas",
-                            "Genitive" => "cartarum",
-                            "Dative" => "cartis",
-                            "Ablative" => "cartis"
-                        )
-                    )
+                    "Beginning" => "cart"
                 ) ,
                 "Question 3" => array(
-
+                    "Word" => "villa",
+                    "Meaning" => "town",
+                    "Beginning" => "vill"
                 ),
                 "Question 4" => array(
-
+                    "Word" => "ecclesia",
+                    "Meaning" => "church",
+                    "Beginning" => "ecclesi"
                 ),
                 "Question 5" => array(
-
+                    "Word" => "vidua",
+                    "Meaning" => "widow",
+                    "Beginning" => "vidu"
                 ) ,
                 "Question 6" => array(
-
+                    "Word" => "curia",
+                    "Meaning" => "court",
+                    "Beginning" => "curi"
                 ),
             );
             break;

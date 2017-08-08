@@ -95,31 +95,21 @@
 
             if (numberOfQuestions($Difficulty, $ActivityNo) == 6) { //IF ITS AN INPUT TYPE
 
-                $UserAnswers = array(
-                    "Singular" => array(
-                        "Nominative" => strtolower($_POST["singular-$CurrentQuestionNo-Nominative"]),
-                        "Vocative" => strtolower($_POST["singular-$CurrentQuestionNo-Vocative"]),
-                        "Accusative" => strtolower($_POST["singular-$CurrentQuestionNo-Accusative"]),
-                        "Genitive" => strtolower($_POST["singular-$CurrentQuestionNo-Genitive"]),
-                        "Dative" => strtolower($_POST["singular-$CurrentQuestionNo-Dative"]),
-                        "Ablative" => strtolower($_POST["singular-$CurrentQuestionNo-Ablative"])
-                    ),
-                    "Plural" => array(
-                        "Nominative" => strtolower($_POST["plural-$CurrentQuestionNo-Nominative"]),
-                        "Vocative" => strtolower($_POST["plural-$CurrentQuestionNo-Vocative"]),
-                        "Accusative" => strtolower($_POST["plural-$CurrentQuestionNo-Accusative"]),
-                        "Genitive" => strtolower($_POST["plural-$CurrentQuestionNo-Genitive"]),
-                        "Dative" => strtolower($_POST["plural-$CurrentQuestionNo-Dative"]),
-                        "Ablative" => strtolower($_POST["plural-$CurrentQuestionNo-Ablative"])
-                    )
-                ); ?>
+                foreach ($Types as $key => $Type):
+                    foreach ($Categories as $k =>$Category):
+                        $UserAnswers[$Type][$Category] = strtolower($_POST["singular-$CurrentQuestionNo-$Categories[$k]"]);
+                    endforeach;
+                endforeach;
+
+                ?>
 
 
                 <div class="row-element clearfix">
                     <div class="col-md-6" id="singular-answers">
                         <?php
                         for ($i = 0; $i < 6; $i++) { //FOR EACH NOMINATIVE/VOCATIVE/ACCUSATIVE/GENITIVE/DATIVE/ABLATIVE CASE WITHIN SINGULAR(0)/PLURAL(1)
-                            if ($QnA["Question $CurrentQuestionNo"]["Answers"]["Singular"]["$Categories[$i]"] == $UserAnswers["Singular"]["$Categories[$i]"]) {
+                            $TrueAns = $QnA["Question $CurrentQuestionNo"]["Beginning"] . $CorrectEndings["Singular"]["$Categories[$i]"];
+                            if ($TrueAns == $UserAnswers["Singular"]["$Categories[$i]"]) {
                                 $_SESSION["Score"]++;
                                 ?>
                                 <h2>Correct!</h2>
@@ -128,7 +118,7 @@
                             <?php } else { ?>
                                 <h2>Incorrect!</h2>
                                 <p>The correct <?= $Categories[$i]?> Singular form of <em><?= $QnA["Question $CurrentQuestionNo"]["Word"] ?></em>
-                                    is <em><?= $QnA["Question $CurrentQuestionNo"]["Answers"]["Singular"]["$Categories[$i]"] ?></em>, not <em><?= $UserAnswers["Singular"]["$Categories[$i]"]?></em> ❌ </p>
+                                    is <em><?= $TrueAns ?></em>, not <em><?= $UserAnswers["Singular"]["$Categories[$i]"]?></em> ❌ </p>
                             <?php }
                         }
                         ?>
@@ -136,16 +126,17 @@
                     <div class="col-md-6" id="plural-answers">
                         <?php
                         for ($i = 0; $i < 6; $i++) { //FOR EACH NOMINATIVE/VOCATIVE/ACCUSATIVE/GENITIVE/DATIVE/ABLATIVE CASE WITHIN SINGULAR(0)/PLURAL(1)
-                            if ($QnA["Question $CurrentQuestionNo"]["Answers"]["Plural"]["$Categories[$i]"] == $UserAnswers["Plural"]["$Categories[$i]"]) {
+                            $TrueAns = $QnA["Question $CurrentQuestionNo"]["Beginning"] . $CorrectEndings["Plural"]["$Categories[$i]"];
+                            if ($TrueAns == $UserAnswers["Plural"]["$Categories[$i]"]) {
                             $_SESSION["Score"]++;
                             ?>
-                            <h2>Correct!</h2>
+                                <h2>Correct!</h2>
                                 <p>The <?= $Categories[$i] ?> Plural form of <em><?= $QnA["Question $CurrentQuestionNo"]["Word"] ?></em>
                                     is <em><?= $UserAnswers["Plural"]["$Categories[$i]"] ?></em> ✔️ </p>
                             <?php } else { ?>
                                 <h2>Incorrect!</h2>
-                                <p>The correct <?= $Categories[$i] ?> Plural form of <em><?= $QnA["Question $CurrentQuestionNo"]["Word"] ?></em>
-                                    is <em><?= $QnA["Question $CurrentQuestionNo"]["Answers"]["Plural"]["$Categories[$i]"] ?></em>, not <em><?= $UserAnswers["Plural"]["$Categories[$i]"]?></em> ❌ </p>
+                                <p>The correct <?= $Categories[$i]?> Plural form of <em><?= $QnA["Question $CurrentQuestionNo"]["Word"] ?></em>
+                                    is <em><?= $TrueAns ?></em>, not <em><?= $UserAnswers["Plural"]["$Categories[$i]"]?></em> ❌ </p>
                             <?php }
                         }
                         ?>
