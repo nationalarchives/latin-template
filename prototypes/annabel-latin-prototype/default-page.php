@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-    <head>
+<?php session_start(); ?>
+<head>
     <title>Learn Latin</title>
         <?php
 
