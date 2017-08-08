@@ -105,43 +105,44 @@
 
 
                 <div class="row-element clearfix">
-                    <div class="col-md-6" id="singular-answers">
-                        <?php
-                        for ($i = 0; $i < 6; $i++) { //FOR EACH NOMINATIVE/VOCATIVE/ACCUSATIVE/GENITIVE/DATIVE/ABLATIVE CASE WITHIN SINGULAR(0)/PLURAL(1)
-                            $TrueAns = $QnA["Question $CurrentQuestionNo"]["Beginning"] . $CorrectEndings["Singular"]["$Categories[$i]"];
-                            if ($TrueAns == $UserAnswers["Singular"]["$Categories[$i]"]) {
-                                $_SESSION["Score"]++;
-                                ?>
-                                <h2>Correct!</h2>
-                                <p>The <?= $Categories[$i] ?> Singular form of <em><?= $QnA["Question $CurrentQuestionNo"]["Word"] ?></em>
-                                    is <em><?= $UserAnswers["Singular"]["$Categories[$i]"] ?></em> ✔️ </p>
-                            <?php } else { ?>
-                                <h2>Incorrect!</h2>
-                                <p>The correct <?= $Categories[$i]?> Singular form of <em><?= $QnA["Question $CurrentQuestionNo"]["Word"] ?></em>
-                                    is <em><?= $TrueAns ?></em>, not <em><?= $UserAnswers["Singular"]["$Categories[$i]"]?></em> ❌ </p>
-                            <?php }
-                        }
-                        ?>
-                    </div>
-                    <div class="col-md-6" id="plural-answers">
-                        <?php
-                        for ($i = 0; $i < 6; $i++) { //FOR EACH NOMINATIVE/VOCATIVE/ACCUSATIVE/GENITIVE/DATIVE/ABLATIVE CASE WITHIN SINGULAR(0)/PLURAL(1)
-                            $TrueAns = $QnA["Question $CurrentQuestionNo"]["Beginning"] . $CorrectEndings["Plural"]["$Categories[$i]"];
-                            if ($TrueAns == $UserAnswers["Plural"]["$Categories[$i]"]) {
-                            $_SESSION["Score"]++;
-                            ?>
-                                <h2>Correct!</h2>
-                                <p>The <?= $Categories[$i] ?> Plural form of <em><?= $QnA["Question $CurrentQuestionNo"]["Word"] ?></em>
-                                    is <em><?= $UserAnswers["Plural"]["$Categories[$i]"] ?></em> ✔️ </p>
-                            <?php } else { ?>
-                                <h2>Incorrect!</h2>
-                                <p>The correct <?= $Categories[$i]?> Plural form of <em><?= $QnA["Question $CurrentQuestionNo"]["Word"] ?></em>
-                                    is <em><?= $TrueAns ?></em>, not <em><?= $UserAnswers["Plural"]["$Categories[$i]"]?></em> ❌ </p>
-                            <?php }
-                        }
-                        ?>
-
-                    </div>
+                    <table class="table col-md-12">
+                        <thead>
+                        <tr>
+                            <td></td>
+                            <td>Singular</td>
+                            <td>Plural</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <?php for ($i = 0; $i < 6; $i++) { ?>
+                        <tr>
+                            <td><strong><?= $Categories[$i]?></strong></td>
+                            <td>
+                                 <?php //FOR EACH NOMINATIVE/VOCATIVE/ACCUSATIVE/GENITIVE/DATIVE/ABLATIVE CASE WITHIN SINGULAR(0)/PLURAL(1)
+                                    $TrueSingularAns = $QnA["Question $CurrentQuestionNo"]["Beginning"] . $CorrectEndings["Singular"]["$Categories[$i]"];
+                                    if ($TrueSingularAns == $UserAnswers["Singular"]["$Categories[$i]"]) {
+                                        $_SESSION["Score"]++;
+                                        echo $UserAnswers["Singular"]["$Categories[$i]"] . " ✔";
+                                    } else {
+                                        echo $UserAnswers["Singular"]["$Categories[$i]"] . " ❌" ?>
+                                        <p>(The correct answer is <em><?= $TrueSingularAns ?></em>)</em>  </p>
+                                    <?php } ?>
+                            </td>
+                            <td>
+                                <?php
+                                    $TruePluralAns = $QnA["Question $CurrentQuestionNo"]["Beginning"] . $CorrectEndings["Plural"]["$Categories[$i]"];
+                                    if ($TruePluralAns == $UserAnswers["Plural"]["$Categories[$i]"]) {
+                                        $_SESSION["Score"]++;
+                                        echo $UserAnswers["Plural"]["$Categories[$i]"] . " ✔";
+                                    } else {
+                                        echo $UserAnswers["Plural"]["$Categories[$i]"] . " ❌" ?>
+                                        <p>(The correct answer is <em><?= $TruePluralAns ?></em>)</em>  </p>
+                                    <?php } ?>
+                            </td>
+                        </tr>
+                        <?php } ?>
+                        </tbody>
+                    </table>
                 </div>
 
                 <?php
