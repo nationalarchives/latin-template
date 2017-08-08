@@ -14,13 +14,39 @@ if ($Difficulty == "beginners") {
                             "Accusative" => "terram",
                             "Genitive" => "terre",
                             "Dative" => "terre",
-                            "Ablative" =>
+                            "Ablative" => "terra"
                         ),
-                        "Plural" => array()
+                        "Plural" => array(
+                            "Nominative" => "terre",
+                            "Vocative" => "terre",
+                            "Accusative" => "terras",
+                            "Genitive" => "terrarum",
+                            "Dative" => "terris",
+                            "Ablative" => "terris"
+                        )
                     )
                 ),
                 "Question 2" => array(
-
+                    "Word" => "carta",
+                    "Meaning" => "charter",
+                    "Answers" => array(
+                        "Singular" => array(
+                            "Nominative" => "carta",
+                            "Vocative" => "carta",
+                            "Accusative" => "cartam",
+                            "Genitive" => "carte",
+                            "Dative" => "carte",
+                            "Ablative" => "carta"
+                        ),
+                        "Plural" => array(
+                            "Nominative" => "carte",
+                            "Vocative" => "carte",
+                            "Accusative" => "cartas",
+                            "Genitive" => "cartarum",
+                            "Dative" => "cartis",
+                            "Ablative" => "cartis"
+                        )
+                    )
                 ) ,
                 "Question 3" => array(
 

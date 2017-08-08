@@ -22,17 +22,36 @@
         include "./content/question-loader.php";
 
         if (!isset($_GET["AnsPg"])) {
-            if ($ActivityNo == 6) {
+            if (numberOfQuestions($Difficulty, $ActivityNo) == 6) {
                 //FORM STARTS - INPUTS
                 if ($CurrentQuestionNo <= numberOfQuestions($Difficulty, $ActivityNo)) {
                     ?>
-                    <form action="" method="post">
-                        <!--Question Number-->
-                        <h2>Question <?= $CurrentQuestionNo ?> of <?= numberOfQuestions($Difficulty, $ActivityNo)?>:</h2>
-                        <!--Word to Decline-->
-                        <p><em><?= ?></em> - <?= ?></p>
+                        <form action=""?Difficulty=<?= $Difficulty ?>&amp;Activity=<?= $ActivityNo ?>&amp;QuestionNumber=<?= $CurrentQuestionNo ?>&amp;AnsPg" method="post">
+                            <!--Question Number-->
+                            <h2>Question <?= $CurrentQuestionNo ?> of <?= numberOfQuestions($Difficulty, $ActivityNo)?>:</h2>
+                            <!--Word to Decline-->
+                            <p><em><?= $QnA["Question $CurrentQuestionNo"]["Word"]?></em> - <?= $QnA["Question $CurrentQuestionNo"]["Meaning"] ?></p>
+                            <table class="table col-md-12">
+                                <thead>
+                                <tr>
+                                    <td></td>
+                                    <td>Singular</td>
+                                    <td>Plural</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <?php for ($i = 0; $i < 6; $i++) { ?>
+                                <tr>
+                                    <td><strong><?= $Categories[$i]?></strong></td>
+                                    <td><input type="text" name="singular-<?= $Categories[$i] ?>-<?= $CurrentQuestionNo ?>"></td>
+                                    <td><input type="text" name="plural-<?= $Categories[$i] ?>-<?= $CurrentQuestionNo ?>"></td>
+                                </tr>
+                                <?php } ?>
+                                </tbody>
+                            </table>
+                            <input type="submit" value="Submit">
+                        </form>
 
-                    </form>
                     <?php
                     //FORM ENDS - INPUTS
 
@@ -46,7 +65,7 @@
                     <?php
                 }
 
-            } elseif ($ActivityNo == 8) {
+            } elseif (numberOfQuestions($Difficulty, $ActivityNo) == 8) {
                 if ($CurrentQuestionNo <= numberOfQuestions($Difficulty, $ActivityNo)) {
                     //FORM STARTS - RADIO BUTTONS
                     ?>
@@ -78,21 +97,74 @@
                 }
             }
 
-        } else {
+        } else { //IF IT IS AN ANSWER PAGE
 
-            $Answer = $_POST["answer-" . $CurrentQuestionNo];
+            if (numberOfQuestions($Difficulty, $ActivityNo) == 6) { //IF ITS AN INPUT TYPE
 
-            if ($QnA["Question $CurrentQuestionNo"]["Answer"] == $Answer) {
-                $_SESSION["Score"]++;
-                ?>
-                <h2>That is Correct!</h2>
-                <p><em><?= $Answer ?></em> translates to '<?= $QnA["Question $CurrentQuestionNo"]["Question"] ?>' </p>
-                <?php
-            } else {
-                ?>
-                <h2>That is Incorrect!</h2>
-                <p><em><?= $QnA["Question $CurrentQuestionNo"]["Answer"] ?></em> translates to '<?= $QnA["Question $CurrentQuestionNo"]["Question"] ?>' </p>
-                <?php
+                $Answers = array(
+                    "Singular" => array(
+                        "Nominative" => $_GET["singular-$CurrentQuestionNo-Nominative"],
+                        "Vocative" => $_GET["singular-$CurrentQuestionNo-Vocative"],
+                        "Accusative" => $_GET["singular-$CurrentQuestionNo-Accusative"],
+                        "Genitive" => $_GET["singular-$CurrentQuestionNo-Genitive"],
+                        "Dative" => $_GET["singular-$CurrentQuestionNo-Dative"],
+                        "Ablative" => $_GET["singular-$CurrentQuestionNo-Ablative"]
+                    ),
+                    "Plural" => array(
+                        "Nominative" => $_GET["plural-$CurrentQuestionNo-Nominative"],
+                        "Vocative" => $_GET["plural-$CurrentQuestionNo-Vocative"],
+                        "Accusative" => $_GET["plural-$CurrentQuestionNo-Accusative"],
+                        "Genitive" => $_GET["plural-$CurrentQuestionNo-Genitive"],
+                        "Dative" => $_GET["plural-$CurrentQuestionNo-Dative"],
+                        "Ablative" => $_GET["plural-$CurrentQuestionNo-Ablative"]
+                    )
+                );
+
+
+                for ($x = 0; $x < 2; $x++) {
+                    for ($i = 0; $i < 6; $i++) {
+                        if ($QnA["Question $CurrentQuestionNo"]["Answers"][$x][$i] == $Answers[$x][$i]) {
+                            $_SESSION["Score"]++;
+                            ?>
+                            <h2>Correct!</h2>
+                            <p>The <?= $Categories[$i] ?> <?php if ($x = 1) {
+                                    echo "singular";
+                                } else {
+                                    echo "plural";
+                                } ?>>form of <?= $QnA["Question $CurrentQuestionNo"]["Word"] ?>
+                                is <?= $Answers[$x][$i] ?> ✔️ </p>
+                        <?php } else { ?>
+                            <h2>Incorrect!</h2>
+                            <p>The correct <?= $Categories[$i] ?> <?php if ($x = 1) {
+                                    echo "singular";
+                                } else {
+                                    echo "plural";
+                                } ?>>form of <?= $QnA["Question $CurrentQuestionNo"]["Word"] ?>
+                                is <?= $QnA["Question $CurrentQuestionNo|"]["Answers"][$x][$i] ?> ✔️ </p>
+                        <?php }
+                    }
+                }
+
+                echo "Your current score is " . $_SESSION["Score"];
+
+            } elseif (numberOfQuestions($Difficulty, $ActivityNo) == 8) {
+
+                $Answer = $_POST["answer-" . $CurrentQuestionNo];
+
+                if ($QnA["Question $CurrentQuestionNo"]["Answer"] == $Answer) {
+                    $_SESSION["Score"]++;
+                    ?>
+                    <h2>That is Correct!</h2>
+                    <p><em><?= $Answer ?></em> translates to '<?= $QnA["Question $CurrentQuestionNo"]["Question"] ?>'
+                    </p>
+                    <?php
+                } else {
+                    ?>
+                    <h2>That is Incorrect!</h2>
+                    <p><em><?= $QnA["Question $CurrentQuestionNo"]["Answer"] ?></em> translates to
+                        '<?= $QnA["Question $CurrentQuestionNo"]["Question"] ?>' </p>
+                    <?php
+                }
             }
             ?>
 
