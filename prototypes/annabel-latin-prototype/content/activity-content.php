@@ -22,11 +22,10 @@
         include "./content/question-loader.php";
 
         if (!isset($_GET["AnsPg"])) {
-            if (numberOfQuestions($Difficulty, $ActivityNo) == 6) {
+            if (numberOfQuestions($Difficulty, $ActivityNo) == 6) { //IF ACTIVITY IS AN INPUT BASED ACTIVITY (HAS 6 QUESTIONS)
                 //FORM STARTS - INPUTS
-                if ($CurrentQuestionNo <= numberOfQuestions($Difficulty, $ActivityNo)) {
-                    ?>
-                        <form action=""?Difficulty=<?= $Difficulty ?>&amp;Activity=<?= $ActivityNo ?>&amp;QuestionNumber=<?= $CurrentQuestionNo ?>&amp;AnsPg" method="post">
+                if ($CurrentQuestionNo <= numberOfQuestions($Difficulty, $ActivityNo)) { ?>
+                        <form action="?Difficulty=<?= $Difficulty ?>&amp;Activity=<?= $ActivityNo ?>&amp;QuestionNumber=<?= $CurrentQuestionNo ?>&amp;AnsPg" method="post">
                             <!--Question Number-->
                             <h2>Question <?= $CurrentQuestionNo ?> of <?= numberOfQuestions($Difficulty, $ActivityNo)?>:</h2>
                             <!--Word to Decline-->
@@ -43,8 +42,8 @@
                                 <?php for ($i = 0; $i < 6; $i++) { ?>
                                 <tr>
                                     <td><strong><?= $Categories[$i]?></strong></td>
-                                    <td><input type="text" name="singular-<?= $Categories[$i] ?>-<?= $CurrentQuestionNo ?>"></td>
-                                    <td><input type="text" name="plural-<?= $Categories[$i] ?>-<?= $CurrentQuestionNo ?>"></td>
+                                    <td><input type="text" name="singular-<?= $CurrentQuestionNo ?>-<?= $Categories[$i] ?>"></td>
+                                    <td><input type="text" name="plural-<?= $CurrentQuestionNo ?>-<?= $Categories[$i] ?>"></td>
                                 </tr>
                                 <?php } ?>
                                 </tbody>
@@ -103,42 +102,46 @@
 
                 $Answers = array(
                     "Singular" => array(
-                        "Nominative" => $_GET["singular-$CurrentQuestionNo-Nominative"],
-                        "Vocative" => $_GET["singular-$CurrentQuestionNo-Vocative"],
-                        "Accusative" => $_GET["singular-$CurrentQuestionNo-Accusative"],
-                        "Genitive" => $_GET["singular-$CurrentQuestionNo-Genitive"],
-                        "Dative" => $_GET["singular-$CurrentQuestionNo-Dative"],
-                        "Ablative" => $_GET["singular-$CurrentQuestionNo-Ablative"]
+                        "Nominative" => $_POST["singular-$CurrentQuestionNo-Nominative"],
+                        "Vocative" => $_POST["singular-$CurrentQuestionNo-Vocative"],
+                        "Accusative" => $_POST["singular-$CurrentQuestionNo-Accusative"],
+                        "Genitive" => $_POST["singular-$CurrentQuestionNo-Genitive"],
+                        "Dative" => $_POST["singular-$CurrentQuestionNo-Dative"],
+                        "Ablative" => $_POST["singular-$CurrentQuestionNo-Ablative"]
                     ),
                     "Plural" => array(
-                        "Nominative" => $_GET["plural-$CurrentQuestionNo-Nominative"],
-                        "Vocative" => $_GET["plural-$CurrentQuestionNo-Vocative"],
-                        "Accusative" => $_GET["plural-$CurrentQuestionNo-Accusative"],
-                        "Genitive" => $_GET["plural-$CurrentQuestionNo-Genitive"],
-                        "Dative" => $_GET["plural-$CurrentQuestionNo-Dative"],
-                        "Ablative" => $_GET["plural-$CurrentQuestionNo-Ablative"]
+                        "Nominative" => $_POST["plural-$CurrentQuestionNo-Nominative"],
+                        "Vocative" => $_POST["plural-$CurrentQuestionNo-Vocative"],
+                        "Accusative" => $_POST["plural-$CurrentQuestionNo-Accusative"],
+                        "Genitive" => $_POST["plural-$CurrentQuestionNo-Genitive"],
+                        "Dative" => $_POST["plural-$CurrentQuestionNo-Dative"],
+                        "Ablative" => $_POST["plural-$CurrentQuestionNo-Ablative"]
                     )
                 );
+
+                foreach ($Answers as $UserAns) {
+                    
+                }
 
 
                 for ($x = 0; $x < 2; $x++) {
                     for ($i = 0; $i < 6; $i++) {
-                        if ($QnA["Question $CurrentQuestionNo"]["Answers"][$x][$i] == $Answers[$x][$i]) {
+                        if ($QnA["Question $CurrentQuestionNo"]["Answers"]["$x"]["$i"] == $Answers["$x"]["$i"]) {
                             $_SESSION["Score"]++;
                             ?>
                             <h2>Correct!</h2>
                             <p>The <?= $Categories[$i] ?> <?php if ($x = 1) {
-                                    echo "singular";
+                                    echo "Singular";
                                 } else {
-                                    echo "plural";
+                                    echo "Plural";
                                 } ?>>form of <?= $QnA["Question $CurrentQuestionNo"]["Word"] ?>
                                 is <?= $Answers[$x][$i] ?> ✔️ </p>
                         <?php } else { ?>
                             <h2>Incorrect!</h2>
                             <p>The correct <?= $Categories[$i] ?> <?php if ($x = 1) {
-                                    echo "singular";
+                                    echo "Singular";
                                 } else {
-                                    echo "plural";
+                                    echo "Plural";
                                 } ?>>form of <?= $QnA["Question $CurrentQuestionNo"]["Word"] ?>
                                 is <?= $QnA["Question $CurrentQuestionNo|"]["Answers"][$x][$i] ?> ✔️ </p>
                         <?php }
