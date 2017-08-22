@@ -5,6 +5,10 @@ th {
 	text-align: center;
 }
 
+.left {
+    text-align: left;
+}
+
 .list-table{
 	width: 100%;
 }
@@ -20,8 +24,18 @@ th {
 	display: block
 }
 
+.correct {
+    font-weight: bold;
+    color: green;
+}
+
+.incorrect {
+    font-weight: bold;
+    color: red;
+}
 
 #lesson-content-buttons .btn-lg {
+    margin-top: 1%;
     background-color: #008484;
     color: #fff;
     border-radius: 0;
@@ -29,12 +43,14 @@ th {
 }
 
 #lesson-content-buttons .btn-lg:hover {
+    
     background-color: #fce45c;
     color: #111;
     border-radius: 0;
 }
 
 #lesson-content-buttons .btn-active {
+    
     background-color: #fce45c;
     color: #111;
     border-radius: 0;
