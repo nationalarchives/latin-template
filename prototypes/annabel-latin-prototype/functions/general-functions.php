@@ -365,7 +365,16 @@ function buttonTitles($Difficulty, $LessonNo)
 function loadLessonBlurb ($LessonNo) {
     switch ($LessonNo) {
         case 1 :
-            return "BLURB LESSON 1";
+            return "<strong>
+            <p>In this lesson, you will:</p>
+            <ol>
+                <li>Learn first conjugation verbs</li>
+                <li>Learn differences between Latin and English verbs</li>
+                <li>Play *ACTIVITY* to test your knowledge</li>
+
+
+            </ol>
+            </strong>";
             break;
         case 2 :
             return "BLURB LESSON 2";
