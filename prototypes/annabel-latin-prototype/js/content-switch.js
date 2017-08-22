@@ -1,6 +1,47 @@
 var lessonNumberOfSections = $('#lesson-content-buttons').attr('data-lesson');
 var isActivityAction = $('#primary').attr('data-actact');
 
+var hashtag
+$(function() {
+    //Get value of # in URL
+    hashtag = window.location.hash.substr(1);
+    
+    if(!$.isNumeric(hashtag)){
+        hashtag = 1;
+    }
+    
+        ContentHideAll();
+
+        var contentID = "#content-"+hashtag;
+        $(contentID).removeClass("hide");
+        $(contentID).addClass("show");
+
+       var currentButton = $("#lesson-content-buttons button").get(hashtag-1);
+       $(currentButton).removeClass("hide");
+       $(currentButton).addClass("show");
+
+       $("#lesson-content-buttons button").each(function(){
+
+
+
+            var data = $(this).attr('data-target');
+           // console.log(data);
+
+            if(data == "content-"+hashtag){
+                $(this).removeClass("btn-active");    
+                $(this).addClass("btn-active");
+            }
+            else {
+
+                console.log("Data is "+data);
+            }
+        
+       
+    });
+
+    
+});
+
 function ContentHideAll() {
     for (var i = 0; i <= lessonNumberOfSections; i++) {
         var contentID = '#content-'+i;
@@ -15,7 +56,7 @@ function ContentHideAll() {
     });
 }
 
-var FirstContent;
+/* var FirstContent;
 
 $(ContentHideAll());
 
@@ -27,7 +68,7 @@ if (isActivityAction) {
 
 $(FirstContent).removeClass("hide");
 $(FirstContent).addClass("show");
-$('button:first-of-type').addClass("btn-active");
+$('button:first-of-type').addClass("btn-active"); */
 
 $('#lesson-content-buttons button').on('click', function() {
 
