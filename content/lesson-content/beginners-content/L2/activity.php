@@ -184,7 +184,7 @@ function checkAnswer($userAnswer, $correctAnswer, $id){
 
         	 <?php if($answersCheck == "false"){ ?>
                     
-                    <form action="default-page.php" method="get">
+                    <form action="default-page.php#5" method="get">
             <table class="table">
             <thead> 
               <tr>
@@ -330,9 +330,9 @@ function checkAnswer($userAnswer, $correctAnswer, $id){
 
 						</table>
 
-						<a class="button" href="./default-page.php?reveal=true&currentID=<?php echo $currentID; ?>&answersCheck=true&Difficulty=beginners&Lesson=2#activity">Reveal Answers</a> 
- 					    <a class="button" href="./default-page.php?currentID=<?php echo $currentID; ?>&answersCheck=false&Difficulty=beginners&Lesson=2#activity">Try Again</a> 
- 					    <a class="button" href="./default-page.php?currentID=<?php echo $nextID; ?>&answersCheck=false&Difficulty=beginners&Lesson=2#activity">Next Word</a>								
+						<a class="button" href="./default-page.php?reveal=true&currentID=<?php echo $currentID; ?>&answersCheck=true&Difficulty=beginners&Lesson=2#5">Reveal Answers</a> 
+ 					    <a class="button" href="./default-page.php?currentID=<?php echo $currentID; ?>&answersCheck=false&Difficulty=beginners&Lesson=2#5">Try Again</a> 
+ 					    <a class="button" href="./default-page.php?currentID=<?php echo $nextID; ?>&answersCheck=false&Difficulty=beginners&Lesson=2#5">Next Word</a>								
  
                   <?php   } ?>
 
