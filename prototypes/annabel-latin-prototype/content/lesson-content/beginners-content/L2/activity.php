@@ -31,6 +31,18 @@ $nextID = $currentID + 1;
 
 $wordsArray = array("terra", "carta",  "villa",  "ecclesia",  "vidua", "curia");
 
+$definitionsArray = array(
+    "the Latin name for Earth.",    
+    "the Latin word for paper, chart or map.",
+    "the Latin word for 'country house'.",
+    "the Latin name for the Christian Church.",
+    "the Latin word for 'widow'.",
+    "assembly, council or court."    
+
+
+
+    );
+
 $nominativeSingularArray = array(
     "terra",
     "carta",
@@ -145,15 +157,15 @@ $ablativePluralArray = array(
 function checkAnswer($userAnswer, $correctAnswer, $id){
 	global $reveal;
 	if($reveal=="true"){
-		echo $correctAnswer;
+		echo "<span class='correct''>" . $correctAnswer . "</span>";
 		
 	}
 	else if($userAnswer == $correctAnswer){
 
-			echo $correctAnswer . " ✔";
+			echo "<span class='correct''>" . $correctAnswer . " ✔</span>";
 		}
 		else {
-			echo $userAnswer . " ✘";
+			echo "<span class='incorrect'>" . $userAnswer . " ✘</span>";
 		}
 	
 
@@ -167,15 +179,16 @@ function checkAnswer($userAnswer, $correctAnswer, $id){
 <article>
       
 <div class="entry-content">
-                        ID: <?php echo $currentID; ?>
+                        
                         <p>Try this activity as a fun way to test how much you've remembered about first declension nouns.</p>
 
-                        <p>Can you remember how to decline nouns like carta? Try this activity.</p>
+                        <p>Can you remember how to decline nouns like carta?</p>
 
                         <p>Don’t worry if you don't get the answers right at first - the practice will help you to learn.</p>
                         <hr>
-                        <h2>Noun to decline: <?php echo $wordsArray[$currentID]; ?></h2>
-                        <p>Type your answers below, then click "Check Answers" - one row has been done for you. </p>
+                        <h2>Noun to decline: <span class="correct"><?php echo $wordsArray[$currentID]; ?></span></h2>
+                        <p><em><strong><?php echo $wordsArray[$currentID]; ?></strong> - <?php echo $definitionsArray[$currentID]; ?></em></p>
+                        <p>Type your answers below, then click "check answers" - for <em>terra</em>, one row has been done for you. </p>
        
 
 
@@ -188,9 +201,9 @@ function checkAnswer($userAnswer, $correctAnswer, $id){
             <table class="table">
             <thead> 
               <tr>
-                <th>Case</th>
-                <th>Singular</th>
-                <th>Plural</th>
+                <th class="left">Case</th>
+                <th class="left">Singular</th>
+                <th class="left">Plural</th>
               </tr>
             </thead>
             <tbody>
@@ -198,11 +211,31 @@ function checkAnswer($userAnswer, $correctAnswer, $id){
                 <td>Nominative</td>
 
                 <td>
-                  <input type="text" name="nominative-singular">
+                    <?php if($currentID == 0){ ?>
+
+                        <input type="text" name="nominative-singular" value="terra">
+
+                    <?php } else { ?>
+                  <input type="text" name="nominative-singular" >
+
+                  <?php } ?>
                 </td>
 
                 <td>
-                <input type="text" name="nominative-plural" >
+
+                      <?php if($currentID == 0){ ?>
+
+                        <input type="text" name="nominative-plural" value="terre">
+
+                    <?php } else { ?>
+                  <input type="text" name="nominative-plural" >
+
+                  <?php } ?>
+
+
+               
+                
+
                 </td>
 
               </tr>
@@ -241,9 +274,11 @@ function checkAnswer($userAnswer, $correctAnswer, $id){
             <input type='hidden' name='answersCheck' value='true'/> 
 
             </table>
-
+             <?php if($currentID != 0){ ?>
+            <a class="button" href="./default-page.php?reveal=false&currentID=0&answersCheck=false&Difficulty=beginners&Lesson=2#5">Restart activity</a>
+            <?php } ?>
             <input type="submit" value="Check Answers">
-
+            
           </form>
 
                     <?php } else { ?>
@@ -251,9 +286,9 @@ function checkAnswer($userAnswer, $correctAnswer, $id){
                     <table class="table">
 						<thead>	
 							<tr>
-								<th>Case</th>
-								<th>Singular</th>
-								<th>Plural</th>
+								<th class="left">Case</th>
+								<th class="left">Singular</th>
+								<th class="left">Plural</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -329,11 +364,26 @@ function checkAnswer($userAnswer, $correctAnswer, $id){
 						</tbody>
 
 						</table>
+                        <a class="button" href="./default-page.php?reveal=false&currentID=0&answersCheck=false&Difficulty=beginners&Lesson=2#5">Restart activity</a>
 
-						<a class="button" href="./default-page.php?reveal=true&currentID=<?php echo $currentID; ?>&answersCheck=true&Difficulty=beginners&Lesson=2#5">Reveal Answers</a> 
- 					    <a class="button" href="./default-page.php?currentID=<?php echo $currentID; ?>&answersCheck=false&Difficulty=beginners&Lesson=2#5">Try Again</a> 
- 					    <a class="button" href="./default-page.php?currentID=<?php echo $nextID; ?>&answersCheck=false&Difficulty=beginners&Lesson=2#5">Next Word</a>								
- 
+                        <?php if($reveal != "true"){ ?>
+						<a class="button" href="./default-page.php?reveal=true&currentID=<?php echo $currentID; ?>&answersCheck=true&Difficulty=beginners&Lesson=2#5">Reveal answers</a> 
+                        <?php } ?>
+
+ 					    <a class="button" href="./default-page.php?currentID=<?php echo $currentID; ?>&answersCheck=false&Difficulty=beginners&Lesson=2#5">Try "<?php echo $wordsArray[$currentID]; ?>" again</a> 
+
+                        <?php if($nextID < 6){ ?>
+
+                        <a class="button" href="./default-page.php?currentID=<?php echo $nextID; ?>&answersCheck=false&Difficulty=beginners&Lesson=2#5">Next Word</a>   
+
+                        <?php } else { ?>
+
+                        <strong>Activity completed!</strong>
+
+                        <?php   } ?>
+ 					  
+                           							
+                    
                   <?php   } ?>
 
                                    
