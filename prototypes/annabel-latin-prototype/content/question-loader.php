@@ -2,6 +2,7 @@
 if ($Difficulty == "beginners") {
     switch ($ActivityNo) {
         case 2:
+            $QType = "input";
             $Categories = array("Nominative", "Vocative", "Accusative", "Genitive", "Dative", "Ablative");
             $Types = array("Singular", "Plural");
             $CorrectEndings = array(
@@ -54,6 +55,7 @@ if ($Difficulty == "beginners") {
             );
             break;
         case 4:
+            $QType = "radio";
             $AllA = array(
                 "confirm" => array("confirmat", "confirmo", "confirmant", "confirmamus"),
                 "give" => array("dant", "damus", "do", "dat")
@@ -104,6 +106,7 @@ if ($Difficulty == "beginners") {
             );
             break;
         default:
-            echo "ERROR IN QUESTION-LOADER.PHP";
+            echo "I HAVE NOT FILLED IN THE INFO FOR THESE LESSONS //";
+            echo "SELECT BEGINNERS ACTIVITY 2 OR 4 INSTEAD";
     }
 }
