@@ -105,40 +105,40 @@ function numberOfSections ($Difficulty, $LessonNo)
     if ($Difficulty == "beginners") {
         switch ($LessonNo) {
             case 1 :
-                return 4;
+                return 3;
                 break;
             case 2 :
-                return 5;
-                break;
-            case 3 :
-                return 3;
-                break;
-            case 4 :
-                return 5;
-                break;
-            case 5 :
-                return 5;
-                break;
-            case 6 :
-                return 5;
-                break;
-            case 7 :
-                return 3;
-                break;
-            case 8 :
-                return 3;
-                break;
-            case 9 :
-                return 3;
-                break;
-            case 10 :
-                return 3;
-                break;
-            case 11 :
                 return 4;
                 break;
+            case 3 :
+                return 2;
+                break;
+            case 4 :
+                return 4;
+                break;
+            case 5 :
+                return 4;
+                break;
+            case 6 :
+                return 4;
+                break;
+            case 7 :
+                return 2;
+                break;
+            case 8 :
+                return 2;
+                break;
+            case 9 :
+                return 2;
+                break;
+            case 10 :
+                return 2;
+                break;
+            case 11 :
+                return 3;
+                break;
             case 12 :
-                return 5;
+                return 4;
                 break;
             default:
                 return 0;
@@ -146,40 +146,40 @@ function numberOfSections ($Difficulty, $LessonNo)
     } else {
         switch ($LessonNo) {
             case 1 :
-                return 4;
+                return 3;
                 break;
             case 2 :
-                return 5;
-                break;
-            case 3 :
-                return 3;
-                break;
-            case 4 :
-                return 5;
-                break;
-            case 5 :
-                return 5;
-                break;
-            case 6 :
-                return 5;
-                break;
-            case 7 :
-                return 3;
-                break;
-            case 8 :
-                return 3;
-                break;
-            case 9 :
-                return 3;
-                break;
-            case 10 :
-                return 3;
-                break;
-            case 11 :
                 return 4;
                 break;
+            case 3 :
+                return 2;
+                break;
+            case 4 :
+                return 4;
+                break;
+            case 5 :
+                return 4;
+                break;
+            case 6 :
+                return 4;
+                break;
+            case 7 :
+                return 2;
+                break;
+            case 8 :
+                return 2;
+                break;
+            case 9 :
+                return 2;
+                break;
+            case 10 :
+                return 2;
+                break;
+            case 11 :
+                return 3;
+                break;
             case 12 :
-                return 5;
+                return 4;
                 break;
             default:
                 return 0;
@@ -192,40 +192,40 @@ function buttonTitles($Difficulty, $LessonNo)
             if ($Difficulty == "beginners") {
                 switch ($LessonNo) {
                     case 1 :
-                        return $ButtonContent = array("Intro to Verbs", "First Conjugation Verbs", "Differences Between Latin and English Verbs", "Activity");
+                        return $ButtonContent = array("Intro to Verbs", "First Conjugation Verbs", "Differences Between Latin and English Verbs");
                         break;
                     case 2 :
-                        return $ButtonContent = array("Intro to Nouns", "Word Order in Latin", "The Six Cases of Nouns", "First Declension Nouns", "Activity");
+                        return $ButtonContent = array("Intro to Nouns", "Word Order in Latin", "The Six Cases of Nouns", "First Declension Nouns");
                         break;
                     case 3 :
-                        return $ButtonContent = array("Second Declension Nouns", "<em>Esse</em> - to be", "Activity");
+                        return $ButtonContent = array("Second Declension Nouns", "<em>Esse</em> - to be");
                         break;
                     case 4 :
-                        return $ButtonContent = array("<em>non</em> - not", "Second Conjugation Verbs", "Numbers", "Introducing New Nouns", "Activity");
+                        return $ButtonContent = array("<em>non</em> - not", "Second Conjugation Verbs", "Numbers", "Introducing New Nouns");
                         break;
                     case 5 :
-                        return $ButtonContent = array("Intro to Adjectives", "Irregular Adjectives", "Declining Certain Numbers", "<em>Ego</em> and <em>Nos</em>", "Activity");
+                        return $ButtonContent = array("Intro to Adjectives", "Irregular Adjectives", "Declining Certain Numbers", "<em>Ego</em> and <em>Nos</em>");
                         break;
                     case 6 :
-                        return $ButtonContent = array("<em>Hic, Hec, Hoc</em>", "Third Conjugation Verbs", "Fourth Conjugation Verbs", "<em>Obire</em>", "Activity");
+                        return $ButtonContent = array("<em>Hic, Hec, Hoc</em>", "Third Conjugation Verbs", "Fourth Conjugation Verbs", "<em>Obire</em>");
                         break;
                     case 7 :
-                        return $ButtonContent = array("Third Declension Nouns", "Third Declension Adjectives", "Activity");
+                        return $ButtonContent = array("Third Declension Nouns", "Third Declension Adjectives");
                         break;
                     case 8 :
-                        return $ButtonContent = array("Prepositions", "Possession", "Activity");
+                        return $ButtonContent = array("Prepositions", "Possession");
                         break;
                     case 9 :
-                        return $ButtonContent = array("Past Tense Verbs", "Third Conjugation Verbs - Past Tense", "Activity");
+                        return $ButtonContent = array("Past Tense Verbs", "Third Conjugation Verbs - Past Tense");
                         break;
                     case 10 :
-                        return $ButtonContent = array("<em>qui, que, quod</em>", "The Family", "Activity");
+                        return $ButtonContent = array("<em>qui, que, quod</em>", "The Family");
                         break;
                     case 11 :
-                        return $ButtonContent = array("Fourth Declension Nouns", "Fifth Declension Nouns", "Adverbs", "Activity");
+                        return $ButtonContent = array("Fourth Declension Nouns", "Fifth Declension Nouns", "Adverbs");
                         break;
                     case 12 :
-                        return $ButtonContent = array("Days of The Week", "Months of The Year", "Numbers and Dates", "Dating Clauses", "Activity");
+                        return $ButtonContent = array("Days of The Week", "Months of The Year", "Numbers and Dates", "Dating Clauses");
                         break;
                     default:
                         return null;
@@ -234,40 +234,40 @@ function buttonTitles($Difficulty, $LessonNo)
             } else {
                 switch ($LessonNo) {
                     case 1 :
-                        return $ButtonContent = array("Intro to Verbs", "First Conjugation Verbs", "Differences Between Latin and English Verbs", "Activity");
+                        return $ButtonContent = array("Intro to Verbs", "First Conjugation Verbs", "Differences Between Latin and English Verbs");
                         break;
                     case 2 :
-                        return $ButtonContent = array("Intro to Nouns", "Word Order in Latin", "The Six Cases of Nouns", "First Declension Nouns", "Activity");
+                        return $ButtonContent = array("Intro to Nouns", "Word Order in Latin", "The Six Cases of Nouns", "First Declension Nouns");
                         break;
                     case 3 :
-                        return $ButtonContent = array("Second Declension Nouns", "<em>Esse</em> - to be", "Activity");
+                        return $ButtonContent = array("Second Declension Nouns", "<em>Esse</em> - to be");
                         break;
                     case 4 :
-                        return $ButtonContent = array("<em>non</em> - not", "Second Conjugation Verbs", "Numbers", "Introducing New Nouns", "Activity");
+                        return $ButtonContent = array("<em>non</em> - not", "Second Conjugation Verbs", "Numbers", "Introducing New Nouns");
                         break;
                     case 5 :
-                        return $ButtonContent = array("Intro to Adjectives", "Irregular Adjectives", "Declining Certain Numbers", "<em>Ego</em> and <em>Nos</em>", "Activity");
+                        return $ButtonContent = array("Intro to Adjectives", "Irregular Adjectives", "Declining Certain Numbers", "<em>Ego</em> and <em>Nos</em>");
                         break;
                     case 6 :
-                        return $ButtonContent = array("<em>Hic, Hec, Hoc</em>", "Third Conjugation Verbs", "Fourth Conjugation Verbs", "<em>Obire</em>", "Activity");
+                        return $ButtonContent = array("<em>Hic, Hec, Hoc</em>", "Third Conjugation Verbs", "Fourth Conjugation Verbs", "<em>Obire</em>");
                         break;
                     case 7 :
-                        return $ButtonContent = array("Third Declension Nouns", "Third Declension Adjectives", "Activity");
+                        return $ButtonContent = array("Third Declension Nouns", "Third Declension Adjectives");
                         break;
                     case 8 :
-                        return $ButtonContent = array("Prepositions", "Possession", "Activity");
+                        return $ButtonContent = array("Prepositions", "Possession");
                         break;
                     case 9 :
-                        return $ButtonContent = array("Past Tense Verbs", "Third Conjugation Verbs - Past Tense", "Activity");
+                        return $ButtonContent = array("Past Tense Verbs", "Third Conjugation Verbs - Past Tense");
                         break;
                     case 10 :
-                        return $ButtonContent = array("<em>qui, que, quod</em>", "The Family", "Activity");
+                        return $ButtonContent = array("<em>qui, que, quod</em>", "The Family");
                         break;
                     case 11 :
-                        return $ButtonContent = array("Fourth Declension Nouns", "Fifth Declension Nouns", "Adverbs", "Activity");
+                        return $ButtonContent = array("Fourth Declension Nouns", "Fifth Declension Nouns", "Adverbs");
                         break;
                     case 12 :
-                        return $ButtonContent = array("Days of The Week", "Months of The Year", "Numbers and Dates", "Dating Clauses", "Activity");
+                        return $ButtonContent = array("Days of The Week", "Months of The Year", "Numbers and Dates", "Dating Clauses");
                         break;
                     default:
                         return null;
@@ -314,7 +314,7 @@ function loadLessonBlurb ($LessonNo) {
             return "BLURB LESSON 12";
             break;
         default :
-            return "Sorry Dave, Im afraid I can't let you do that";
+            return "Sorry Dave, Im afraid I can't let you do that (Lesson)";
     }
 }
 
@@ -357,7 +357,7 @@ function loadActivityBlurb ($ActivityNo) {
             return "BLURB ACTIVITY 12";
             break;
         default :
-            return "Sorry Dave, Im afraid I can't let you do that";
+            return "Sorry Dave, Im afraid I can't let you do that (Activity)";
     }
 }
 
@@ -385,7 +385,7 @@ function loadResourceBlurb ($Resource) {
             return "BLURB WORD LIST";
             break;
         default :
-            return "Sorry Dave, Im afraid I can't let you do that";
+            return "Sorry Dave, Im afraid I can't let you do that (Resource)";
     }
 }
 

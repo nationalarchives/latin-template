@@ -1,4 +1,5 @@
 <?php
+
 if ($Difficulty == "beginners") {
     switch ($ActivityNo) {
         case 2:

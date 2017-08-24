@@ -1,14 +1,14 @@
 function AccordionHideAll(isFullHide) {
 
+    var $this = $(this);
+
     if (isFullHide) {
         $("div.filter-togglee").each(function (){
-            $(this).removeClass("show");
-            $(this).addClass("hide");
+            addHide($this);
         });
     } else {
         $("div.filter-togglee:not(#currentpanel)").each(function() {
-            $(this).removeClass("show");
-            $(this).addClass("hide");
+            addHide($this)
         });
         $("div.filter-togglee#currentpanel").removeAttr("id");
     }

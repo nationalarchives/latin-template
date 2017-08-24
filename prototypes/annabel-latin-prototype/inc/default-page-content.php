@@ -3,7 +3,7 @@
         <?php if ($isLesson) { ?>
             <div id="lesson-content-buttons" class="btn-group" data-lesson="<?php echo numberOfSections($Difficulty, $LessonNo); ?>">
                 <?php for ($i = 0; $i < numberOfSections($Difficulty, $LessonNo); $i++) { ?>
-                    <button class="btn-lg" data-target="content-<?php echo $i+1 ?>">
+                    <button class="btn-lg" data-target="<?= $i+1 ?>" id="<?= $i+1 ?>" onclick="window.location.href='#<?=$i+1?>'">
                         <?php echo buttonTitles($Difficulty, $LessonNo)[$i] ?>
                     </button>
                 <?php } ?>
