@@ -1,5 +1,6 @@
 <div class="row">
     <div class="col-md-9 col-sm-9 col-xs-12">
+        <a title="Go back to top" href="#" id="goTop" style="right: 0.5em;"></a>
         <?php if ($isLesson) { ?>
             <div id="lesson-content-buttons" class="btn-group" data-lesson="<?php echo numberOfSections($Difficulty, $LessonNo); ?>">
                 <?php for ($i = 0; $i < numberOfSections($Difficulty, $LessonNo); $i++) { ?>

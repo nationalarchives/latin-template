@@ -1,14 +1,12 @@
 function AccordionHideAll(isFullHide) {
 
-    var $this = $(this);
-
     if (isFullHide) {
         $("div.filter-togglee").each(function (){
-            addHide($this);
+            addHide($(this));
         });
     } else {
         $("div.filter-togglee:not(#currentpanel)").each(function() {
-            addHide($this)
+            addHide($(this));
         });
         $("div.filter-togglee#currentpanel").removeAttr("id");
     }
@@ -29,4 +27,12 @@ $("a.filter-toggler").on('click', function( event ) {
     $this.toggleClass("expanded");
     $(thisPanel).toggleClass("hide");
     $(thisPanel).toggleClass("show");
+});
+
+$(window).scroll(function () {
+    var goTop = "#goTop";
+    $(window).scrollTop() > 100 ?
+        $(goTop).stop().animate({right: ".5em"})
+        :
+        $(goTop).stop().animate({right: "-100px"})
 });
