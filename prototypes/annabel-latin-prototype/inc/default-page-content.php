@@ -4,14 +4,14 @@
         <?php if ($isLesson) { ?>
             <div id="lesson-content-buttons" class="btn-group" data-lesson="<?= numberOfSections($Difficulty, $LessonNo); ?>">
                 <?php for ($i = 0; $i < numberOfSections($Difficulty, $LessonNo); $i++) { ?>
-                    <button class="btn-lg" data-target="<?= $i+1 ?>" id="<?= $i+1 ?>" onclick="window.location.href='#<?=$i+1?>'">
+                    <a href="#tab-<?= $i+1 ?>" class="btn-lg" data-target="<?= $i+1 ?>" id="<?= $i+1 ?>">
                         <?= buttonTitles($Difficulty, $LessonNo)[$i] ?>
-                    </button>
+                    </a>
                 <?php } ?>
             </div>
             <div class="lesson-content">
                 <?php for ($i=1; $i<=numberOfSections($Difficulty, $LessonNo);$i++) { ?>
-                    <div id="content-<?php echo $i ?>">
+                    <div id="tab-<?php echo $i ?>">
                         <?php
                             beginnersContent($LessonNo, $i);
                         ?>

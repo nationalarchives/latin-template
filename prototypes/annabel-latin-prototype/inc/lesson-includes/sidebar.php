@@ -19,7 +19,7 @@
                                 <div class="filter-togglee">
                                     <ul>
                                         <li><a href="./default-page.php?Difficulty=<?php echo "beginners" ?>&amp;Lesson=<?php echo $BeginnersLessonNo ?>">Learn</a></li>
-                                        <li><a href="">Test Your Knowledge</a></li>
+                                        <li><a href="./default-page.php?Difficulty=<?php echo "beginners" ?>&amp;Activity=<?php echo $BeginnersLessonNo ?>">Test Your Knowledge</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -37,7 +37,7 @@
                                 <div class="filter-togglee">
                                     <ul>
                                         <li><a href="./default-page.php?Difficulty=<?php echo "advanced" ?>&amp;Lesson=<?php echo $AdvancedLessonNo ?>">Learn</a></li>
-                                        <li><a href="">Test Your Knowledge</a></li>
+                                        <li><a href="./default-page.php?Difficulty=<?php echo "advanced" ?>&amp;Activity=<?php echo $AdvancedLessonNo ?>">Test Your Knowledge</a></li>
                                     </ul>
                                 </div>
                             </li>

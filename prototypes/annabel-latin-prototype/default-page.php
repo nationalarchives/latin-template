@@ -44,5 +44,4 @@
         <?php
         include "./inc/footer.php";
         ?>
-        <script src="js/content-switch.js"></script>
     </footer>

@@ -2,11 +2,11 @@ function AccordionHideAll(isFullHide) {
 
     if (isFullHide) {
         $("div.filter-togglee").each(function (){
-            addHide($(this));
+            $(this).hide();
         });
     } else {
         $("div.filter-togglee:not(#currentpanel)").each(function() {
-            addHide($(this));
+            $(this).hide();
         });
         $("div.filter-togglee#currentpanel").removeAttr("id");
     }
@@ -25,14 +25,5 @@ $("a.filter-toggler").on('click', function( event ) {
     AccordionHideAll(false);
 
     $this.toggleClass("expanded");
-    $(thisPanel).toggleClass("hide");
-    $(thisPanel).toggleClass("show");
-});
-
-$(window).scroll(function () {
-    var goTop = "#goTop";
-    $(window).scrollTop() > 100 ?
-        $(goTop).stop().animate({right: ".5em"})
-        :
-        $(goTop).stop().animate({right: "-100px"})
+    $(thisPanel).toggle();
 });

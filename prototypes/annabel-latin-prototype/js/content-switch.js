@@ -1,51 +1,43 @@
 var lessonNumberOfSections = $('#lesson-content-buttons').attr('data-lesson');
-var currentTab;
 
-$(function getCurrentTab (){
+function displayCurrentTabContent (tab) {
+    ContentHideAll();
+    var content_id = ('#tab-' + tab);
+    var button_id =('#' + tab);
+    $("a").removeClass("btn-active");
+    $(button_id).addClass("btn-active");
+
+    $(content_id).show();
+}
+
+function getCurrentTab (){
    //Get value of # in URL
     if(window.location.hash) {
-        currentTab = window.location.hash.substr(1);
-        if (currentTab > lessonNumberOfSections || currentTab === null) {
+
+        var currentTab = window.location.hash.substr(1);
+
+        if (window.location.hash.substr(1) > lessonNumberOfSections || currentTab === null) {
             currentTab = 1;
         }
     } else {
         currentTab = 1;
     }
-    //Correct any incorrect # values
-    displayCurrentTabContent(currentTab)
-});
 
-$('#lesson-content-buttons button').on('click', function() {
+    return currentTab;
+}
+
+$('#lesson-content-buttons a').on('click', function(event) {
+    event.preventDefault();
     displayCurrentTabContent($(this).data('target'));
 });
 
 function ContentHideAll() {
     for (var i = 0; i <= lessonNumberOfSections; i++) {
-        var contentID = '#content-'+i;
-        addHide(contentID)
+        var contentID = '#tab-'+i;
+        $(contentID).hide();
     }
-    $("#lesson-content-buttons button").each(function(){
-        $("button").removeClass("btn-active");
-    });
 }
 
-function displayCurrentTabContent ($this) {
-    $(ContentHideAll());
-
-    var content_id = ('#content-' + $this);
-    var button_id =('#' + $this);
-
-    $(button_id).addClass("btn-active");
-
-    addShow(content_id);
-}
-
-function addShow (current) {
-    $(current).removeClass("hide");
-    $(current).addClass("show");
-}
-
-function addHide (current) {
-    $(current).removeClass("show");
-    $(current).addClass("hide");
-}
+$(document).ready(function (){
+   displayCurrentTabContent(getCurrentTab());
+});

@@ -86,7 +86,9 @@
 
     </script>
     <script src="./js/jquery-3.2.1.js"></script>
-    <script src="./js/TNAModernizr.js"></script>
+
+    <script src="js/content-switch.js"></script>
     <script src="./js/accordion.js"></script>
+    <script src="./js/scroll.js"></script>
 
 
