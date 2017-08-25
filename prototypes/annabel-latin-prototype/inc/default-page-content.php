@@ -1,11 +1,11 @@
 <div class="row">
     <div class="col-md-9 col-sm-9 col-xs-12">
-        <a title="Go back to top" href="#" id="goTop" style="right: 0.5em;"></a>
+        <a title="Go back to top" href="" id="goTop" style="right: 0.5em;"></a>
         <?php if ($isLesson) { ?>
-            <div id="lesson-content-buttons" class="btn-group" data-lesson="<?php echo numberOfSections($Difficulty, $LessonNo); ?>">
+            <div id="lesson-content-buttons" class="btn-group" data-lesson="<?= numberOfSections($Difficulty, $LessonNo); ?>">
                 <?php for ($i = 0; $i < numberOfSections($Difficulty, $LessonNo); $i++) { ?>
                     <button class="btn-lg" data-target="<?= $i+1 ?>" id="<?= $i+1 ?>" onclick="window.location.href='#<?=$i+1?>'">
-                        <?php echo buttonTitles($Difficulty, $LessonNo)[$i] ?>
+                        <?= buttonTitles($Difficulty, $LessonNo)[$i] ?>
                     </button>
                 <?php } ?>
             </div>
