@@ -17,7 +17,7 @@
                 <!--BLURBS-->
                 <?php if ($isLesson) { ?>
 
-                    <p><?php echo loadLessonBlurb($LessonNo) ?></p>
+                    <p><?= loadLessonBlurb($LessonNo) ?></p>
 
                     <?php
                     $PrevLesson = $LessonNo-1;
@@ -27,25 +27,29 @@
 
                     <div class="alignright">
                         <?php if($LessonNo == 1) { ?>
-                            <a class="button" href="./default-page.php?Difficulty=<?php echo $Difficulty ?>&amp;Lesson=<?php echo $NextLesson ?>">Next
+                            <a class="button" href="./default-page.php?Difficulty=<?= $Difficulty ?>&amp;Lesson=<?= $NextLesson ?>">Next
                                 Lesson</a>
                         <?php } elseif($LessonNo == 12) { ?>
-                            <a class="button" href="./default-page.php?Difficulty=<?php echo $Difficulty ?>&amp;Lesson=<?php echo $PrevLesson ?>">Previous
+                            <a class="button" href="./default-page.php?Difficulty=<?= $Difficulty ?>&amp;Lesson=<?= $PrevLesson ?>">Previous
                                 Lesson</a>
                         <?php } else { ;?>
-                            <a class="button" href="./default-page.php?Difficulty=<?php echo $Difficulty ?>&amp;Lesson=<?php echo $PrevLesson ?>">Previous
-                                Lesson</a>
-                            <a class="button" href="./default-page.php?Difficulty=<?php echo $Difficulty ?>&amp;Lesson=<?php echo $NextLesson ?>">Next Lesson</a>
+                            <a class="button" href="./default-page.php?Difficulty=<?= $Difficulty ?>&amp;Activity=<?= $LessonNo ?>">Go To Activity</a>
+                            <a class="button" href="./default-page.php?Difficulty=<?= $Difficulty ?>&amp;Lesson=<?= $PrevLesson ?>">Previous Lesson</a>
+                            <a class="button" href="./default-page.php?Difficulty=<?= $Difficulty ?>&amp;Lesson=<?= $NextLesson ?>">Next Lesson</a>
                         <?php } ?>
                     </div>
 
                 <?php } elseif ($isActivity) { ?>
 
-                    <p><?php echo loadActivityBlurb($ActivityNo) ?></p>
+                    <p><?= loadActivityBlurb($ActivityNo) ?></p>
+
+                    <div class="alignright">
+                        <a class="button" href="./default-page.php?Difficulty=<?= $Difficulty ?>&amp;Lesson=<?= $ActivityNo ?>">Return To Lesson</a>
+                    </div>
 
                 <?php } elseif ($isResource) { ?>
 
-                    <p><?php echo loadResourceBlurb($Resource)?></p>
+                    <p><?= loadResourceBlurb($Resource)?></p>
 
                 <?php } ?>
             </div>

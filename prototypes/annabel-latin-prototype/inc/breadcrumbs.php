@@ -7,13 +7,13 @@
                     <span class="sep">&gt;</span> <span><a href="http://www.nationalarchives.gov.uk/help-with-your-research/reading-old-documents/">Reading old documents</a></span>
                     <?php if (isset($isLesson) && $isLesson) { ?>
                         <span class="sep">&gt;</span> <span><a href="./landing-page.php">Learn Latin 1086 - 1733</a></span>
-                        <span class="sep">&gt;</span> <span> <?php echo ucfirst($Difficulty) ?> Lesson <?php echo $LessonNo ?></span>
+                        <span class="sep">&gt;</span> <span> <?= ucfirst($Difficulty) ?> Lesson <?= $LessonNo ?></span>
                     <?php } elseif (isset($isActivity) && $isActivity) { ?>
                         <span class="sep">&gt;</span> <span><a href="./landing-page.php">Learn Latin 1086 - 1733</a></span>
-                        <span class="sep">&gt;</span> <span> <?php echo ucfirst($Difficulty) ?> Activity <?php echo $ActivityNo ?></span>
+                        <span class="sep">&gt;</span> <span> <?= ucfirst($Difficulty) ?> Activity <?= $ActivityNo ?></span>
                     <?php } elseif (isset($isResource) && $isResource) { ?>
                         <span class="sep">&gt;</span> <span><a href="./landing-page.php">Learn Latin 1086 - 1733</a></span>
-                        <span class="sep">&gt;</span> <span> <?php echo getresourcename($Resource) ?></span>
+                        <span class="sep">&gt;</span> <span> <?= getresourcename($Resource) ?></span>
                     <?php } else { ?>
                         <span class="sep">&gt;</span> <span>Learn Latin 1086 - 1733</span>
                     <?php } ?>

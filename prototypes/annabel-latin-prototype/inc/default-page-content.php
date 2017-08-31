@@ -9,14 +9,31 @@
                     </a>
                 <?php } ?>
             </div>
-            <div class="lesson-content">
+            <div class="lesson-content entry-content">
                 <?php for ($i=1; $i<=numberOfSections($Difficulty, $LessonNo);$i++) { ?>
-                    <div id="tab-<?php echo $i ?>">
+                    <div id="tab-<?= $i ?>">
                         <?php
                             beginnersContent($LessonNo, $i);
                         ?>
+
                     </div>
                 <?php } ?>
+<!--                <div class="next-lesson-buttons alignright">-->
+<!--                    --><?php
+//                    $PrevLesson = $LessonNo-1;
+//                    $NextLesson = $LessonNo+1;
+//                    if($LessonNo == 1) { ?>
+<!--                        <a class="button" href="./default-page.php?Difficulty=--><?//= $Difficulty ?><!--&amp;Lesson=--><?//= $NextLesson ?><!--">Next-->
+<!--                            Lesson</a>-->
+<!--                    --><?php //} elseif($LessonNo == 12) { ?>
+<!--                        <a class="button" href="./default-page.php?Difficulty=--><?//= $Difficulty ?><!--&amp;Lesson=--><?//= $PrevLesson ?><!--">Previous-->
+<!--                            Lesson</a>-->
+<!--                    --><?php //} else { ;?>
+<!--                        <a class="button" href="./default-page.php?Difficulty=--><?//= $Difficulty ?><!--&amp;Activity=--><?//= $LessonNo ?><!--">Go To Activity</a>-->
+<!--                        <a class="button" href="./default-page.php?Difficulty=--><?//= $Difficulty ?><!--&amp;Lesson=--><?//= $PrevLesson ?><!--">Previous Lesson</a>-->
+<!--                        <a class="button" href="./default-page.php?Difficulty=--><?//= $Difficulty ?><!--&amp;Lesson=--><?//= $NextLesson ?><!--">Next Lesson</a>-->
+<!--                    --><?php //} ?>
+<!--                </div>-->
             </div>
         <?php }
         elseif ($isActivity) { ?>

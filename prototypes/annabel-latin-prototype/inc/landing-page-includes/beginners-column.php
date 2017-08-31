@@ -9,11 +9,11 @@
             <ul class="available-filters">
                 <?php for ($BeginnersLessonNo=1; $BeginnersLessonNo <= 12; $BeginnersLessonNo++) { ?>
                     <li class="filter-full">
-                        <a href="#" class="filter-toggler">Lesson <?php echo $BeginnersLessonNo ?></a>
+                        <a href="#" class="filter-toggler">Lesson <?= $BeginnersLessonNo ?></a>
                         <div class="filter-togglee">
                             <ul>
-                                <li><a href="./default-page.php?Difficulty=<?php echo "beginners" ?>&amp;Lesson=<?php echo $BeginnersLessonNo ?>">Learn</a></li>
-                                <li><a href="./default-page.php?Difficulty=<?php echo "beginners" ?>&amp;Activity=<?php echo $BeginnersLessonNo ?>">Test Your Knowledge</a></li>
+                                <li><a href="./default-page.php?Difficulty=<?= "beginners" ?>&amp;Lesson=<?= $BeginnersLessonNo ?>">Learn</a></li>
+                                <li><a href="./default-page.php?Difficulty=<?= "beginners" ?>&amp;Activity=<?= $BeginnersLessonNo ?>">Test Your Knowledge</a></li>
                             </ul>
                         </div>
                     </li>
