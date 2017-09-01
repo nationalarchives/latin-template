@@ -1,0 +1,90 @@
+/*!
+ * New styles go here
+ */
+th {
+	text-align: center;
+}
+
+.list-table{
+	width: 100%;
+}
+
+.heading-holding-banner, hr {
+    background: url(../img/dot-grey.png);
+}
+
+.notshow {
+	display: none
+}
+.definitelyshow{
+	display: block
+}
+
+
+#lesson-content-buttons .btn-lg {
+    background-color: #008484;
+    color: #fff;
+    border-radius: 0;
+    
+}
+
+#lesson-content-buttons .btn-lg:hover {
+    background-color: #fce45c;
+    color: #111;
+    border-radius: 0;
+}
+
+#lesson-content-buttons .btn-active {
+    background-color: #fce45c;
+    color: #111;
+    border-radius: 0;
+}
+
+.filter-togglee {
+    padding: .5em 0 .5em .75em;
+    text-align: right;
+}
+.filter-toggler {
+    -webkit-transition: background-image 300ms linear;
+    -moz-transition: background-image 300ms linear;
+    -o-transition: background-image 300ms linear;
+    -ms-transition: background-image 300ms linear;
+    transition: background-image 300ms linear;
+    margin-top: 0;
+    text-align: left;
+    display: block;
+    padding: .8em;
+    background-color: #eee;
+    color: #000;
+    border-bottom: 1px solid #DDD;
+    border-top: 1px solid #fff;
+    background-image: url("../img/icon-24-accordion-open.png");
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: 99% center;
+    font-family: Bitter, serif;
+    font-weight: 300;
+}
+
+.filter-toggler.expanded {
+    background-image: url("../img/icon-24-accordion-close.png");
+}
+
+.filter-togglee {
+    padding: .5em 0 .5em .75em;
+    text-align: right;
+}
+
+.filter-togglee ul {
+    text-align: left;
+}
+
+.available-filters ul li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.filter-full a {
+    margin: 0;
+}
